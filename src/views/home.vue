@@ -26,8 +26,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="mb-5">Basic Elements</h3>
-                        <h4 class="text-primary mb-4">Alerts</h4>
-                        <div class="mb-4">
+                        <h4 class="text-primary mb-4 text-uppercase">Alerts</h4>
+                        <div class="mb-5">
                             <slateblue-alert color="primary" >
                                 <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
                                 A simple primary alert—check it out!
@@ -53,8 +53,8 @@
                             </slateblue-alert>
                         </div>
 <!--                        badges-->
-                        <h4 class="mb-4">Badge</h4>
-                        <div class="mb-4">
+                        <h4 class="mb-4 text-uppercase">Badge</h4>
+                        <div class="mb-5">
                             <slateblue-badge class="mr-2" color="primary" type="pill">
                                 primary
                             </slateblue-badge>
@@ -67,23 +67,129 @@
                             <slateblue-badge class="mr-2" color="success" type="pill"> success</slateblue-badge>
                         </div>
 <!--                        Buttons-->
-                        <h4 class="mb-4">Buttons</h4>
-                        <div class="mb-4">
+                        <h4 class="mb-4 text-uppercase">Buttons</h4>
+                        <div class="mb-5">
+                            <slateblue-button class="mr-2" color="primary">Button</slateblue-button>
+                            <slateblue-button class="mr-2" color="danger">
+                                <vue-fontawesome icon="send"></vue-fontawesome>
+                            </slateblue-button>
+                            <slateblue-button class="mr-2" color="warning">
+                                <vue-fontawesome icon="github"></vue-fontawesome>
+                            </slateblue-button>
+                        </div>
+                        <h5 class="mb-4 text-uppercase">Choose your size</h5>
+                        <div class="mb-5">
+                            <slateblue-button class="mr-2" color="secondary" size="sm">small</slateblue-button>
+                            <slateblue-button class="mr-2" color="dark" >default</slateblue-button>
+                            <slateblue-button class="mr-2" color="info" size="lg">large</slateblue-button>
+                        </div>
+                        <h5 class="mb-4 text-uppercase">Pick your color</h5>
+                        <div class="mb-5">
                             <slateblue-button class="mr-2" color="primary">primary</slateblue-button>
+                            <slateblue-button class="mr-2" color="info">info</slateblue-button>
+                            <slateblue-button class="mr-2" color="secondary">secondary</slateblue-button>
+                            <slateblue-button class="mr-2" color="success">success</slateblue-button>
                             <slateblue-button class="mr-2" color="danger">danger</slateblue-button>
                             <slateblue-button class="mr-2" color="warning">warning</slateblue-button>
+                            <slateblue-button class="mr-2" color="light">light</slateblue-button>
                         </div>
-                        <h5 class="mb-4">Choose your size</h5>
-                        <div class="mb-4">
-                            <slateblue-button class="mr-2" color="secondary" size="sm">secondary</slateblue-button>
-                            <slateblue-button class="mr-2" color="dark" >dark</slateblue-button>
-                            <slateblue-button class="mr-2" color="info" size="lg">info</slateblue-button>
+                        <h5 class="mb-4 text-uppercase">Block level</h5>
+                        <div class="mb-5">
+                            <slateblue-button class="mr-2 mt-2" color="primary" size="lg" display="block">primary</slateblue-button>
                         </div>
-                        <h5 class="mb-4">Block level</h5>
-                        <div class="mb-4">
-                            <slateblue-button class="mr-2 mt-2" color="success" size="lg" display="block">success</slateblue-button>
+                        <h5 class="mb-4 text-uppercase">Outline</h5>
+                        <div class="mb-5">
+                            <slateblue-button class="mr-2" color="primary" type="outline">primary</slateblue-button>
+                            <slateblue-button class="mr-2" color="info" type="outline">info</slateblue-button>
+                            <slateblue-button class="mr-2" color="success" type="outline">success</slateblue-button>
+                            <slateblue-button class="mr-2" color="danger" type="outline">danger</slateblue-button>
+                            <slateblue-button class="mr-2" color="warning" type="outline">warning</slateblue-button>
                         </div>
+<!--                        cards-->
+                        <h5 class="mb-4 text-uppercase">Cards</h5>
+                        <div class="mb-5">
+                            <div class="row mb-4">
+                                <div class="col-md-4">
+                                    <slateblue-card>
+                                        <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
+                                        <slateblue-card-body>
+                                            <h5>Kajal Aggarwal</h5>
+                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
+                                        </slateblue-card-body>
+                                    </slateblue-card>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-card>
+                                        <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
+                                        <slateblue-card-body>
+                                            <h5>Kajal Aggarwal</h5>
+                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
+                                        </slateblue-card-body>
+                                    </slateblue-card>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-card>
+                                        <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
+                                        <slateblue-card-body>
+                                            <h5>Kajal Aggarwal</h5>
+                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
+                                        </slateblue-card-body>
+                                    </slateblue-card>
+                                </div>
 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <slateblue-card class="border-success">
+                                        <slateblue-card-header class="border-bottom border-success bg-transparent">
+                                            slateblue-card-header
+                                        </slateblue-card-header>
+                                        <slateblue-card-body>
+                                            <h5 class="card-title">Success card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </slateblue-card-body>
+                                        <slateblue-card-footer class="border-success">
+                                            slateblue-card-footer
+                                        </slateblue-card-footer>
+                                    </slateblue-card>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-card class="bg-primary text-white">
+                                        <slateblue-card-header>slateblue-card-header</slateblue-card-header>
+                                        <slateblue-card-body>
+                                            <h5 class="card-title text-white">Primary card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </slateblue-card-body>
+                                        <slateblue-card-footer>slateblue-card-footer</slateblue-card-footer>
+                                    </slateblue-card>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-card>
+                                        <img class="card-img-top" style="height: 240px;" src="../assets/img/kajal4.png" alt="">
+                                        <slateblue-card-overlay>
+                                            <h5 class="text-white">kajal aggaral</h5>
+                                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea eaque iure.</p>
+                                        </slateblue-card-overlay>
+                                    </slateblue-card>
+                                </div>
+                            </div>
+                        </div>
+<!--                        carousel-->
+                        <h5 class="mb-4 text-uppercase">Carousel</h5>
+                        <div class="mb-5">
+                            <slateblue-carousel></slateblue-carousel>
+                        </div>
+                        <h5 class="mb-4">Forms</h5>
+                        <div class="mb-5">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <slateblue-inputs type="email" placeholder="enter your email"></slateblue-inputs>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,5 +209,8 @@
 </script>
 
 <style scoped>
-
+.btn{
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
 </style>
