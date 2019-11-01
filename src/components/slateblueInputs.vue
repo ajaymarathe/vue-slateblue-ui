@@ -1,15 +1,11 @@
 <template>
-    <input :type="type" class="form-control" :placeholder="placeholder">
+    <input class="form-control" :type="type" :value="value" :placeholder="placeholder" v-on:input="$emit('input', $event.target.value)">
 </template>
 
 <script>
     export default {
         name: 'slateblueInputs',
-        props:{
-            type:String,
-            id: String,
-            placeholder:String,
-        }
+        props:['value','type','placeholder'],
     }
 </script>
 

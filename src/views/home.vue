@@ -186,7 +186,10 @@
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <slateblue-inputs type="email" placeholder="enter your email"></slateblue-inputs>
+                                    <slateblue-inputs v-model="searchText"  placeholder="enter your email"></slateblue-inputs>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-inputs ></slateblue-inputs>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +205,7 @@
         name: "home",
         data(){
             return {
-                home: "home"
+                searchText: "",
             }
         }
     }
