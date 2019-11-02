@@ -198,8 +198,18 @@
                                     <slateblue-inputs placeholder="disabled"  disabled></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
-                                    <vue-fontawesome icon="search"></vue-fontawesome>
-                                    <slateblue-inputs placeholder="search" ></slateblue-inputs>
+                                    <slateblue-inputs placeholder="search" icon="search"></slateblue-inputs>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-inputs placeholder="search" icon="send"></slateblue-inputs>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h6>Checkboxes</h6>
+
                                 </div>
                             </div>
                         </div>
