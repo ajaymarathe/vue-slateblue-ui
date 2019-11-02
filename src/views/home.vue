@@ -189,7 +189,17 @@
                                     <slateblue-inputs v-model="searchText"  placeholder="enter your email"></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs ></slateblue-inputs>
+                                    <slateblue-inputs class="border-success" type="text" placeholder="success"></slateblue-inputs>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-inputs class="border-danger" placeholder="danger"  ></slateblue-inputs>
+                                </div>
+                                <div class="col-md-4">
+                                    <slateblue-inputs placeholder="disabled"  disabled></slateblue-inputs>
+                                </div>
+                                <div class="col-md-4">
+                                    <vue-fontawesome icon="search"></vue-fontawesome>
+                                    <slateblue-inputs placeholder="search" ></slateblue-inputs>
                                 </div>
                             </div>
                         </div>
@@ -216,4 +226,7 @@
     text-transform: uppercase;
     margin-bottom: .5rem;
 }
+    input{
+        margin-bottom: 1rem;
+    }
 </style>
