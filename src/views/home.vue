@@ -209,7 +209,13 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6>Checkboxes</h6>
-
+                                    <slateblue-checkbox v-model="lovingVue" ></slateblue-checkbox>
+                                    <slateblue-checkbox v-model='searchText' ></slateblue-checkbox>
+                                    Checked
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Radio Buttons</h6>
+                                    <slateblue-radio></slateblue-radio>
                                 </div>
                             </div>
                         </div>
@@ -226,6 +232,7 @@
         data(){
             return {
                 searchText: "",
+                lovingVue: "",
             }
         }
     }

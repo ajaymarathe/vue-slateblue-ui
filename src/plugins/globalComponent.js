@@ -12,6 +12,8 @@ import slateblueCardOverlay from "../components/slateblueCard/slateblueCardOverl
 import slateblueCarousel from "../components/slateblueCarousel/slateblueCarousel";
 import slateblueSlide from "../components/slateblueCarousel/slateblueSlide";
 import slateblueInputs from "../components/slateblueInputs";
+import slateblueCheckbox from "../components/slateblueCheckbox";
+import slateblueRadio from "../components/slateblueRadio";
 
 
 export default {
@@ -30,5 +32,7 @@ export default {
         Vue.component(slateblueCarousel.name, slateblueCarousel);
         Vue.component(slateblueSlide.name, slateblueSlide);
         Vue.component(slateblueInputs.name, slateblueInputs);
+        Vue.component(slateblueCheckbox.name, slateblueCheckbox);
+        Vue.component(slateblueRadio.name, slateblueRadio);
     }
 };
