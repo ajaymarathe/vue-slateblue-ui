@@ -215,7 +215,17 @@
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Radio Buttons</h6>
-                                    <slateblue-radio></slateblue-radio>
+                                    <slateblue-radio name="first" v-model="radio1" value="first radio"></slateblue-radio>
+                                    <slateblue-radio name="first" v-model="radio2" value="second radio"></slateblue-radio>
+                                    Radio 
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Toogle Buttons</h6>
+                                    <slateblue-toggle v-model="switches.on"></slateblue-toggle>
+                                    
+                                    <slateblue-toggle v-model="switches.off"></slateblue-toggle>
+                                    {{ switches.on }}
+                                    {{ switches.off }}
                                 </div>
                             </div>
                         </div>
@@ -233,6 +243,12 @@
             return {
                 searchText: "",
                 lovingVue: "",
+                radio1:"",
+                radio2:"",
+                switches: {
+                    off: false,
+                    on: true
+                },
             }
         }
     }
