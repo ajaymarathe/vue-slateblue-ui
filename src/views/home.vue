@@ -4,14 +4,15 @@
         <navbar></navbar>
         <!--end navbar section-->
         <div class="intro-section">
-            <div class="container" >
+            <div class="container">
                 <div class="row justify-content-center align-items-center" style="height: 100vh;">
                     <div class="heading text-center">
-                       <div class="d-flex justify-content-center align-items-center">
-                           <vue-fontawesome class="mr-3" icon="paper-plane" size="2"></vue-fontawesome>
-                           <h1>SlateBlue</h1>
-                       </div>
-                        <p class="lead">A beautiful Design System for Vue Lovers based on bootstrap 4.3. It's Free and Open Source.</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <vue-fontawesome class="mr-3" icon="paper-plane" size="2"></vue-fontawesome>
+                            <h1>SlateBlue</h1>
+                        </div>
+                        <p class="lead">A beautiful Design System for Vue Lovers based on bootstrap 4.3. It's Free and
+                            Open Source.</p>
                         <div>
                             <button class="btn btn-primary mr-2">components</button>
                             <button class="btn btn-light">download</button>
@@ -27,28 +28,31 @@
                         <h3 class="mb-5">Basic Elements</h3>
                         <h4 class="text-primary mb-4 text-uppercase">Alerts</h4>
                         <div class="mb-5">
-                            <slateblue-alert color="primary" >
+                            <slateblue-alert color="primary">
                                 <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
                                 A simple primary alert—check it out!
                             </slateblue-alert>
-                            <slateblue-alert color="secondary" >
+                            <slateblue-alert color="secondary">
                                 <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
                                 A simple secondary alert—check it out!
                             </slateblue-alert>
-                            <slateblue-alert color="danger" >
+                            <slateblue-alert color="danger">
                                 A simple danger alert—check it out!
                             </slateblue-alert>
                             <slateblue-alert color="warning">
                                 A simple warning alert—check it out!
                             </slateblue-alert>
-                            <slateblue-alert color="info" >
+                            <slateblue-alert color="info">
                                 A simple info alert—check it out!
                             </slateblue-alert>
-                            <slateblue-alert color="success" >
+                            <slateblue-alert color="success">
                                 <h4 class="alert-heading">Well done!</h4>
-                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is
+                                    going to run a bit longer so that you can see how spacing within an alert works with
+                                    this kind of content.</p>
                                 <hr>
-                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
+                                    nice and tidy.</p>
                             </slateblue-alert>
                         </div>
                         <h4 class="mb-4 text-uppercase">Badge</h4>
@@ -60,8 +64,8 @@
                                 danger
                             </slateblue-badge>
                             <slateblue-badge class="mr-2" color="info" type="rounded"> info</slateblue-badge>
-                            <slateblue-badge class="mr-2" color="warning" > warning</slateblue-badge>
-                            <slateblue-badge class="mr-2" color="light" > light</slateblue-badge>
+                            <slateblue-badge class="mr-2" color="warning"> warning</slateblue-badge>
+                            <slateblue-badge class="mr-2" color="light"> light</slateblue-badge>
                             <slateblue-badge class="mr-2" color="success" type="pill"> success</slateblue-badge>
                         </div>
                         <h4 class="mb-4 text-uppercase">Buttons</h4>
@@ -77,7 +81,7 @@
                         <h5 class="mb-4 text-uppercase">Choose your size</h5>
                         <div class="mb-5">
                             <slateblue-button class="mr-2" color="secondary" size="sm">small</slateblue-button>
-                            <slateblue-button class="mr-2" color="dark" >default</slateblue-button>
+                            <slateblue-button class="mr-2" color="dark">default</slateblue-button>
                             <slateblue-button class="mr-2" color="info" size="lg">large</slateblue-button>
                         </div>
                         <h5 class="mb-4 text-uppercase">Pick your color</h5>
@@ -92,7 +96,8 @@
                         </div>
                         <h5 class="mb-4 text-uppercase">Block level</h5>
                         <div class="mb-5">
-                            <slateblue-button class="mr-2 mt-2" color="primary" size="lg" display="block">primary</slateblue-button>
+                            <slateblue-button class="mr-2 mt-2" color="primary" size="lg" display="block">primary
+                            </slateblue-button>
                         </div>
                         <h5 class="mb-4 text-uppercase">Outline</h5>
                         <div class="mb-5">
@@ -110,7 +115,8 @@
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
                                         <slateblue-card-body>
                                             <h5>Kajal Aggarwal</h5>
-                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p>Some quick example text to build on the card title and make up the bulk
+                                                of the card's content.</p>
                                             <slateblue-button color="primary">Go somewhere</slateblue-button>
                                         </slateblue-card-body>
                                     </slateblue-card>
@@ -120,7 +126,8 @@
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
                                         <slateblue-card-body>
                                             <h5>Kajal Aggarwal</h5>
-                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p>Some quick example text to build on the card title and make up the bulk
+                                                of the card's content.</p>
                                             <slateblue-button color="primary">Go somewhere</slateblue-button>
                                         </slateblue-card-body>
                                     </slateblue-card>
@@ -130,7 +137,8 @@
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
                                         <slateblue-card-body>
                                             <h5>Kajal Aggarwal</h5>
-                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p>Some quick example text to build on the card title and make up the bulk
+                                                of the card's content.</p>
                                             <slateblue-button color="primary">Go somewhere</slateblue-button>
                                         </slateblue-card-body>
                                     </slateblue-card>
@@ -145,7 +153,8 @@
                                         </slateblue-card-header>
                                         <slateblue-card-body>
                                             <h5 class="card-title">Success card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
                                         </slateblue-card-body>
                                         <slateblue-card-footer class="border-success">
                                             slateblue-card-footer
@@ -157,17 +166,20 @@
                                         <slateblue-card-header>slateblue-card-header</slateblue-card-header>
                                         <slateblue-card-body>
                                             <h5 class="card-title text-white">Primary card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
                                         </slateblue-card-body>
                                         <slateblue-card-footer>slateblue-card-footer</slateblue-card-footer>
                                     </slateblue-card>
                                 </div>
                                 <div class="col-md-4">
                                     <slateblue-card>
-                                        <img class="card-img-top" style="height: 240px;" src="../assets/img/kajal4.png" alt="">
+                                        <img class="card-img-top" style="height: 240px;" src="../assets/img/kajal4.png"
+                                             alt="">
                                         <slateblue-card-overlay>
                                             <h5 class="text-white">kajal aggaral</h5>
-                                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ea eaque iure.</p>
+                                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Accusantium ea eaque iure.</p>
                                         </slateblue-card-overlay>
                                     </slateblue-card>
                                 </div>
@@ -181,16 +193,18 @@
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <slateblue-inputs v-model="searchText"  placeholder="enter your email"></slateblue-inputs>
+                                    <slateblue-inputs v-model="searchText"
+                                                      placeholder="enter your email"></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs class="border-success" type="text" placeholder="success"></slateblue-inputs>
+                                    <slateblue-inputs class="border-success" type="text"
+                                                      placeholder="success"></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs class="border-danger" placeholder="danger"  ></slateblue-inputs>
+                                    <slateblue-inputs class="border-danger" placeholder="danger"></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs placeholder="disabled"  disabled></slateblue-inputs>
+                                    <slateblue-inputs placeholder="disabled" disabled></slateblue-inputs>
                                 </div>
                                 <div class="col-md-4">
                                     <slateblue-inputs placeholder="search" icon="search"></slateblue-inputs>
@@ -204,54 +218,301 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6>Checkboxes</h6>
-                                    <slateblue-checkbox v-model="lovingVue" ></slateblue-checkbox><br>
-                                    <slateblue-checkbox v-model='searchText' ></slateblue-checkbox>
+                                    <slateblue-checkbox v-model="lovingVue"></slateblue-checkbox>
+                                    <br>
+                                    <slateblue-checkbox v-model='searchText'></slateblue-checkbox>
                                     Checked
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Radio Buttons</h6>
-                                    <slateblue-radio name="first" v-model="radio1" value="first radio"></slateblue-radio>
+                                    <slateblue-radio name="first" v-model="radio1"
+                                                     value="first radio"></slateblue-radio>
                                     <br>
-                                    <slateblue-radio name="first" v-model="radio2" value="second radio"></slateblue-radio>
-                                    Radio 
+                                    <slateblue-radio name="first" v-model="radio2"
+                                                     value="second radio"></slateblue-radio>
+                                    Radio
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Toogle Buttons</h6>
                                     <slateblue-toggle v-model="switches.on"></slateblue-toggle>
                                     <br>
                                     <slateblue-toggle v-model="switches.off"></slateblue-toggle>
-                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="mb-5 mt-4">
-            <slateblue-navbar color="primary">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNav"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                    </ul>
-                </div>
-            </slateblue-navbar>    
+                <h5 class="text-uppercase container mb-4">Navbar</h5>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="primary">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="success">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="warning">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        <vue-fontawesome icon="github" size="1.3"></vue-fontawesome>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <vue-fontawesome icon="facebook" size="1.3"></vue-fontawesome>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <vue-fontawesome icon="instagram" size="1.3"></vue-fontawesome>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <vue-fontawesome icon="google" size="1.3"></vue-fontawesome>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="info">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="danger">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="light" color="secondary">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
+                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="dark">
+                    <div class="container">
+                        <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
+                        <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarNav"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link d-flex align-items-center" href="#">
+                                        <vue-fontawesome class="mr-2" icon="github" size="1.3"></vue-fontawesome>
+                                        Github
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center" href="#">
+                                        <vue-fontawesome class="mr-2" icon="facebook" size="1.3"></vue-fontawesome>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center" href="#">
+                                        <vue-fontawesome class="mr-2" icon="instagram" size="1.3"></vue-fontawesome>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center" href="#">
+                                        <vue-fontawesome class="mr-2" icon="google" size="1.3"></vue-fontawesome>
+                                        Google
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slateblue-navbar>
             </div>
+
+            <div class="container">
+                <div class="mb-5">
+                    <h5 class="mb-4">Tabs</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <slateblue-tab class="bg-light p-1">
+                                <template v-slot:tab-item>
+                                    <slateblue-tab-item tab="active" target="home">Home</slateblue-tab-item>
+                                    <slateblue-tab-item target="profile">profile</slateblue-tab-item>
+                                    <slateblue-tab-item target="contact">contact</slateblue-tab-item>
+                                </template>
+                                <template v-slot:tab-content>
+                                    <slateblue-tab-content tab="active"  section="home">
+                                        Home
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                    <slateblue-tab-content section="profile">
+                                        Profile
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                    <slateblue-tab-content section="contact">
+                                        Contact
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                </template>
+                            </slateblue-tab>
+                        </div>
+                        <div class="col-md-6">
+                            <slateblue-tab class="bg-light p-1">
+                                <template v-slot:tab-item>
+                                    <slateblue-tab-item tab="active" target="school">school</slateblue-tab-item>
+                                    <slateblue-tab-item target="college">college</slateblue-tab-item>
+                                    <slateblue-tab-item target="city">city</slateblue-tab-item>
+                                </template>
+                                <template v-slot:tab-content>
+                                    <slateblue-tab-content tab="active"  section="school">
+                                        school
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                    <slateblue-tab-content section="college">
+                                        college
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                    <slateblue-tab-content section="city">
+                                        city
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
+                                    </slateblue-tab-content>
+                                </template>
+                            </slateblue-tab>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <h5 class="mb-4">Progress bar</h5>
+                    <slateblue-progress class="mb-3" color="primary" width="25"></slateblue-progress>
+                    <slateblue-progress  class="mb-3" color="warning" type="striped" animation="animated" width="45"></slateblue-progress>
+                    <slateblue-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></slateblue-progress>
+                    <slateblue-progress  class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
+                    <slateblue-progress class="mb-3" color="danger" width="35"></slateblue-progress>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
@@ -259,12 +520,12 @@
 <script>
     export default {
         name: "home",
-        data(){
+        data() {
             return {
                 searchText: "",
                 lovingVue: "",
-                radio1:"",
-                radio2:"",
+                radio1: "",
+                radio2: "",
                 switches: {
                     off: false,
                     on: true
@@ -275,11 +536,12 @@
 </script>
 
 <style scoped>
-.btn{
-    text-transform: uppercase;
-    margin-bottom: .5rem;
-}
-    input{
+    .btn {
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+    }
+
+    input {
         margin-bottom: 1rem;
     }
 </style>
