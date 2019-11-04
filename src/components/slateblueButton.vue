@@ -1,5 +1,5 @@
 <template>
-    <button v-if="this.type" :class="[TypeObject.color,TypeObject.size,TypeObject.display,TypeObject.type]">
+    <button v-if="this.type" :class="[TypeObject.color,TypeObject.size,TypeObject.display,TypeObject.type]" >
         <slot></slot>
     </button>
     <button v-else :class="[classObject.color,classObject.size,classObject.display]">
@@ -14,7 +14,8 @@
             color: String,
             size: String,
             display: String,
-            type: String
+            type: String,
+            target: String
         },
         data(){
             return {

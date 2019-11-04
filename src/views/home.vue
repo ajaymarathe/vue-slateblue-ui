@@ -453,7 +453,7 @@
 
             <div class="container">
                 <div class="mb-5">
-                    <h5 class="mb-4">Tabs</h5>
+                    <h5 class="mb-4 text-uppercase">Tabs</h5>
                     <div class="row">
                         <div class="col-md-6">
                             <slateblue-tab class="bg-light p-1">
@@ -504,14 +504,151 @@
                     </div>
                 </div>
                 <div class="mb-5">
-                    <h5 class="mb-4">Progress bar</h5>
-                    <slateblue-progress class="mb-3" color="primary" width="25"></slateblue-progress>
-                    <slateblue-progress  class="mb-3" color="warning" type="striped" animation="animated" width="45"></slateblue-progress>
+                    <h5 class="mb-4 text-uppercase">Progress bar</h5>
+                    <slateblue-progress size="2" class="mb-3" color="primary" width="25"></slateblue-progress>
+                    <slateblue-progress  class="mb-3" color="warning" type="striped"  width="45"></slateblue-progress>
                     <slateblue-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></slateblue-progress>
-                    <slateblue-progress  class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
+                    <slateblue-progress  size="3" class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
                     <slateblue-progress class="mb-3" color="danger" width="35"></slateblue-progress>
                 </div>
-            </div>
+                <div class="mb-5">
+                    <h5 class="mb-4 text-uppercase">Pagination</h5>
+                    <slateblue-pagination size="sm" page-count="4"></slateblue-pagination>
+                    <slateblue-pagination page-count="4"></slateblue-pagination>
+                    <slateblue-pagination size="lg" page-count="4"></slateblue-pagination>
+                </div>
+                <div class="mb-5">
+                    <h5 class="mb-4 text-uppercase">Typography</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">Headings</h6>
+                            <h1>h1. Vue Slateblue-UI</h1>
+                            <h2>h2. Vue Slateblue-UI</h2>
+                            <h3>h3. Vue Slateblue-UI</h3>
+                            <h4>h4. Vue Slateblue-UI</h4>
+                            <h5>h5. Vue Slateblue-UI</h5>
+                            <h6>h6. Vue Slateblue-UI</h6>
+                            <h6 class="text-uppercase mt-4 mb-4">Fancy display</h6>
+                            <h3>
+                                Fancy display heading
+                                <small class="text-muted">With faded secondary text</small>
+                            </h3>
+                            <h6 class="text-uppercase mb-4 mt-4">lead</h6>
+                            <p class="lead">
+                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                            </p>
+                            <h6 class="mb-4 mt-4">Inline text elements</h6>
+                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                            <p><u>This line of text will render as underlined</u></p>
+                            <p><small>This line of text is meant to be treated as fine print.</small></p>
+                            <p><strong>This line rendered as bold text.</strong></p>
+                            <p><em>This line rendered as italicized text.</em></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">Display</h6>
+                            <h1 class="display-1">Display 1</h1>
+                            <h1 class="display-2">Display 2</h1>
+                            <h1 class="display-3">Display 3</h1>
+                            <h1 class="display-4">Display 4</h1>
+                            <h6 class="mb-4 mt-4 text-uppercase">Blockquotes</h6>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                            <h6 class="mb-4 mt-4 text-uppercase">text colors</h6>
+                            <p class="text-primary">.text-primary</p>
+                            <p class="text-secondary">.text-secondary</p>
+                            <p class="text-success">.text-success</p>
+                            <p class="text-danger">.text-danger</p>
+                            <p class="text-warning">.text-warning</p>
+                            <p class="text-info">.text-info</p>
+                            <p class="text-light bg-dark">.text-light</p>
+                            <p class="text-dark">.text-dark</p>
+                            <p class="text-body">.text-body</p>
+                            <p class="text-muted">.text-muted</p>
+                            <p class="text-white bg-dark">.text-white</p>
+                            <p class="text-black-50">.text-black-50</p>
+                            <p class="text-white-50 bg-dark">.text-white-50</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="mb-5">
+                    <h5 class="mb-5 mt-5 text-uppercase">Images </h5>
+                   <div class="row">
+                       <div class="col-md-3">
+                           <h6 class="mb-4 text-uppercase">Rounded</h6>
+                           <img class='img-fluid rounded' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                       </div>
+                       <div class="col-md-3">
+                           <h6 class="mb-4 text-uppercase">Circle</h6>
+                           <img class='img-fluid rounded-circle' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                       </div>
+                       <div class="col-md-3">
+                           <h6 class="mb-4 text-uppercase">Thumbnail</h6>
+                           <img class='img-fluid img-thumbnail' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                       </div>
+                       <div class="col-md-3">
+                           <h6 class="mb-4 text-uppercase">Shadow</h6>
+                           <img class='img-fluid rounded shadow' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                       </div>
+                   </div>
+                </div>
+                <div class="mb-5">
+                    <h5>Modal</h5>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <slateblue-button color="primary" data-toggle="modal" data-target="#exampleModal">
+                                demo modal
+                            </slateblue-button>
+                            <slateblue-modal target="exampleModal">
+                                <slateblue-modal-header>
+                                    <h5 class="modal-title text-uppercase" >Modal header</h5>
+                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                </slateblue-modal-header>
+                                <slateblue-modal-body>
+                                    <h5 class="modal-title text-uppercase">slateblue modal</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus illo laboriosam laudantium odio officia sequi. Autem, omnis sequi? Accusamus enim praesentium provident sunt voluptatibus! Culpa dolorum error impedit vitae?</p>
+                                </slateblue-modal-body>
+                                <slateblue-modal-footer>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </slateblue-modal-footer>
+                            </slateblue-modal>
+                        </div>
+                        <div class="col-md-4">
+                            <slateblue-button color="danger" data-toggle="modal" data-target="#formModal">
+                                form modal
+                            </slateblue-button>
+                            <slateblue-modal target="formModal">
+                                <slateblue-modal-header>
+                                    <h5 class="modal-title text-uppercase" >Modal header</h5>
+                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                </slateblue-modal-header>
+                                <slateblue-modal-body>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message-text" class="col-form-label">Message:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </slateblue-modal-body>
+                                <slateblue-modal-footer>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </slateblue-modal-footer>
+                            </slateblue-modal>
+                        </div>
+                    </div>
+                </div>
+          </div>
 
         </div>
     </div>

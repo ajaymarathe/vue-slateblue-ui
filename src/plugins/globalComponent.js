@@ -20,6 +20,12 @@ import slateblueTab from "../components/slateblueTab/slateblueTab";
 import slateblueTabItem from "../components/slateblueTab/slateblueTabItem";
 import slateblueTabContent from "../components/slateblueTab/slateblueTabContent";
 import slateblueProgress from "../components/slateblueProgress";
+import slatebluePagination from "../components/slatebluePagination";
+import slateblueModal from "../components/slateblueModal/slateblueModal";
+import slateblueModalHeader from "../components/slateblueModal/slateblueModalHeader";
+import slateblueClose from "../components/slateblueClose";
+import slateblueModalBody from "../components/slateblueModal/slateblueModalBody";
+import slateblueModalFooter from "../components/slateblueModal/slateblueModalFooter";
 
 
 export default {
@@ -46,5 +52,11 @@ export default {
         Vue.component(slateblueTabItem.name, slateblueTabItem);
         Vue.component(slateblueTabContent.name, slateblueTabContent);
         Vue.component(slateblueProgress.name, slateblueProgress);
+        Vue.component(slatebluePagination.name, slatebluePagination);
+        Vue.component(slateblueModal.name, slateblueModal);
+        Vue.component(slateblueModalHeader.name, slateblueModalHeader);
+        Vue.component(slateblueClose.name, slateblueClose);
+        Vue.component(slateblueModalBody.name, slateblueModalBody);
+        Vue.component(slateblueModalFooter.name, slateblueModalFooter);
     }
 };

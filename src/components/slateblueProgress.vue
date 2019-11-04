@@ -1,5 +1,5 @@
 <template>
-    <div  class="progress" style="height: 1rem;">
+    <div  class="progress" :style="styleSize">
         <div :class="'progress-bar bg-'+color +' progress-bar-'+type +' progress-bar-'+animation" role="progressbar" :style="styleObject" ></div>
     </div>
 </template>
@@ -12,11 +12,15 @@
             color:String,
             type:String,
             animation: String,
+            size: String,
         },
         data(){
             return{
                 styleObject: {
                     width: this.width+'%',
+                },
+                styleSize:{
+                    height: this.size+'rem'
                 }
             }
         },
