@@ -16,9 +16,6 @@
     export default {
         name: 'slateblueInputs',
         props:['value','type','placeholder','icon'],
-        mounted(){
-            console.log('icon',this.icon);
-        }
     }
 </script>
 

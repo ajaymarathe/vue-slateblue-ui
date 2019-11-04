@@ -20,7 +20,6 @@
                 </div>
             </div>
         </div>
-        <!-- section #2-->
         <div class="section-two">
             <div class="container">
                 <div class="row">
@@ -52,7 +51,6 @@
                                 <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
                             </slateblue-alert>
                         </div>
-<!--                        badges-->
                         <h4 class="mb-4 text-uppercase">Badge</h4>
                         <div class="mb-5">
                             <slateblue-badge class="mr-2" color="primary" type="pill">
@@ -66,7 +64,6 @@
                             <slateblue-badge class="mr-2" color="light" > light</slateblue-badge>
                             <slateblue-badge class="mr-2" color="success" type="pill"> success</slateblue-badge>
                         </div>
-<!--                        Buttons-->
                         <h4 class="mb-4 text-uppercase">Buttons</h4>
                         <div class="mb-5">
                             <slateblue-button class="mr-2" color="primary">Button</slateblue-button>
@@ -105,7 +102,6 @@
                             <slateblue-button class="mr-2" color="danger" type="outline">danger</slateblue-button>
                             <slateblue-button class="mr-2" color="warning" type="outline">warning</slateblue-button>
                         </div>
-<!--                        cards-->
                         <h5 class="mb-4 text-uppercase">Cards</h5>
                         <div class="mb-5">
                             <div class="row mb-4">
@@ -177,7 +173,6 @@
                                 </div>
                             </div>
                         </div>
-<!--                        carousel-->
                         <h5 class="mb-4 text-uppercase">Carousel</h5>
                         <div class="mb-5">
                             <slateblue-carousel></slateblue-carousel>
@@ -209,28 +204,53 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6>Checkboxes</h6>
-                                    <slateblue-checkbox v-model="lovingVue" ></slateblue-checkbox>
+                                    <slateblue-checkbox v-model="lovingVue" ></slateblue-checkbox><br>
                                     <slateblue-checkbox v-model='searchText' ></slateblue-checkbox>
                                     Checked
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Radio Buttons</h6>
                                     <slateblue-radio name="first" v-model="radio1" value="first radio"></slateblue-radio>
+                                    <br>
                                     <slateblue-radio name="first" v-model="radio2" value="second radio"></slateblue-radio>
                                     Radio 
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Toogle Buttons</h6>
                                     <slateblue-toggle v-model="switches.on"></slateblue-toggle>
-                                    
+                                    <br>
                                     <slateblue-toggle v-model="switches.off"></slateblue-toggle>
-                                    {{ switches.on }}
-                                    {{ switches.off }}
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="mb-5 mt-4">
+            <slateblue-navbar color="primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                    </ul>
+                </div>
+            </slateblue-navbar>    
             </div>
         </div>
     </div>

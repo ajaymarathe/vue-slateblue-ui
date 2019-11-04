@@ -15,6 +15,7 @@ import slateblueInputs from "../components/slateblueInputs";
 import slateblueCheckbox from "../components/slateblueCheckbox";
 import slateblueRadio from "../components/slateblueRadio";
 import slateblueToggle from "../components/slateblueToggle";
+import slateblueNavbar from "../components/slateblueNavbar";
 
 
 export default {
@@ -36,5 +37,7 @@ export default {
         Vue.component(slateblueCheckbox.name, slateblueCheckbox);
         Vue.component(slateblueRadio.name, slateblueRadio);
         Vue.component(slateblueToggle.name, slateblueToggle);
+        Vue.component(slateblueNavbar.name, slateblueNavbar);
+        1
     }
 };
