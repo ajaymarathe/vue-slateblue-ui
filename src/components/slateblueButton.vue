@@ -1,5 +1,6 @@
 <template>
-    <button v-if="this.type" :class="[TypeObject.color,TypeObject.size,TypeObject.display,TypeObject.type]" >
+    <button v-if="this.type" :class="[TypeObject.color,TypeObject.size,TypeObject.display,TypeObject.type]"
+           >
         <slot></slot>
     </button>
     <button v-else :class="[classObject.color,classObject.size,classObject.display]">
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+    import JQuery from 'jquery';
     export default {
         name: 'slateblueButton',
         props: {
@@ -15,7 +17,7 @@
             size: String,
             display: String,
             type: String,
-            target: String
+            target: String,
         },
         data(){
             return {
@@ -32,6 +34,10 @@
                 }
             }
         },
+        mounted() {
+            let $ = JQuery;
+            $('.btn').tooltip('show')
+        }
     }
 </script>
 

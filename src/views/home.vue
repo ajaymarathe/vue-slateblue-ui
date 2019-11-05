@@ -598,15 +598,15 @@
                    </div>
                 </div>
                 <div class="mb-5">
-                    <h5>Modal</h5>
+                    <h5 class="text-uppercase mb-4">Modal</h5>
                     <div class="row">
-                        <div class="col-md-4">
-                            <slateblue-button color="primary" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col-md-3">
+                            <slateblue-button color="primary" size="block" data-toggle="modal" data-target="#exampleModal">
                                 demo modal
                             </slateblue-button>
-                            <slateblue-modal target="exampleModal">
+                            <slateblue-modal size="xl" target="exampleModal">
                                 <slateblue-modal-header>
-                                    <h5 class="modal-title text-uppercase" >Modal header</h5>
+                                    <h5 class="modal-title text-uppercase" >Defaul demo modal</h5>
                                     <slateblue-close dismiss="modal"></slateblue-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
@@ -619,13 +619,55 @@
                                 </slateblue-modal-footer>
                             </slateblue-modal>
                         </div>
-                        <div class="col-md-4">
-                            <slateblue-button color="danger" data-toggle="modal" data-target="#formModal">
-                                form modal
+                        <div class="col-md-3">
+                            <slateblue-button color="secondary" size="block" data-toggle="modal" data-target="#smallModal">
+                                small modal
                             </slateblue-button>
-                            <slateblue-modal target="formModal">
+                            <slateblue-modal size="sm" target="smallModal" >
                                 <slateblue-modal-header>
-                                    <h5 class="modal-title text-uppercase" >Modal header</h5>
+                                    <h5 class="modal-title text-uppercase" >small modal</h5>
+                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                </slateblue-modal-header>
+                                <slateblue-modal-body>
+                                    <h5 class="mb-4">Spinners</h5>
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-secondary" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-danger" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-warning" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-info" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-light" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-dark" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                </slateblue-modal-body>
+                                <slateblue-modal-footer>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </slateblue-modal-footer>
+                            </slateblue-modal>
+                        </div>
+                        <div class="col-md-3">
+                            <slateblue-button color="warning" size="block" data-toggle="modal" data-target="#largeModal">
+                                Large Modal
+                            </slateblue-button>
+                            <slateblue-modal size="lg"  target="largeModal">
+                                <slateblue-modal-header>
+                                    <h5 class="modal-title text-uppercase" >large modal</h5>
                                     <slateblue-close dismiss="modal"></slateblue-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
@@ -646,6 +688,57 @@
                                 </slateblue-modal-footer>
                             </slateblue-modal>
                         </div>
+                        <div class="col-md-3">
+                            <slateblue-button color="danger" size="block" data-toggle="modal" data-target="#extraLarge">
+                                Extra large modal
+                            </slateblue-button>
+                            <slateblue-modal size="xl" target="extraLarge" >
+                                <slateblue-modal-header>
+                                    <h5 class="modal-title text-uppercase" >Extra large modal</h5>
+                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                </slateblue-modal-header>
+                                <slateblue-modal-body>
+                                    <h5 class="mb-4">Spinners</h5>
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-secondary" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-success" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-danger" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-warning" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-info" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-light" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                    <div class="spinner-border text-dark" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                </slateblue-modal-body>
+                                <slateblue-modal-footer>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </slateblue-modal-footer>
+                            </slateblue-modal>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="mb-4 text-uppercase">tooltips</h5>
+                            <slateblue-button color="info" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Top</slateblue-button>
+
+                        </div>
                     </div>
                 </div>
           </div>
@@ -655,6 +748,7 @@
 </template>
 
 <script>
+
     export default {
         name: "home",
         data() {
@@ -667,7 +761,11 @@
                     off: false,
                     on: true
                 },
+                date:""
             }
+        },
+        mounted() {
+
         }
     }
 </script>

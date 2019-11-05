@@ -33,6 +33,7 @@ export default {
         Vue.component(navbar.name, navbar);
         Vue.component(VueFontawesome.name, VueFontawesome);
 
+
         Vue.component(slateblueAlert.name, slateblueAlert);
         Vue.component(slateblueBadge.name, slateblueBadge);
         Vue.component(slateblueButton.name, slateblueButton);

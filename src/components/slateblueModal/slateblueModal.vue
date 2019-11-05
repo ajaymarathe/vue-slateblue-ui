@@ -1,8 +1,8 @@
 <template>
-    <div class="modal fade" :id="target"  role="dialog" :aria-labelledby="target" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    <div :class="'modal fade bd-example-modal-'+size" :id="target"  role="dialog" :aria-labelledby="target" aria-hidden="true">
+        <div :class="'modal-dialog modal-dialog-centered modal-'+size" role="document">
             <div class="modal-content">
-               <slot></slot>
+                <slot></slot>
             </div>
         </div>
     </div>
@@ -12,7 +12,11 @@
     export default {
         name: 'slateblueModal',
         props: {
-            target:String
+            target:String,
+            size: String,
+        },
+        mounted() {
+            console.log(this.size)
         }
 
     }
