@@ -232,12 +232,6 @@
                                                      value="second radio"></slateblue-radio>
                                     Radio
                                 </div>
-                                <div class="col-md-4">
-                                    <h6>Toogle Buttons</h6>
-                                    <slateblue-toggle v-model="switches.on"></slateblue-toggle>
-                                    <br>
-                                    <slateblue-toggle v-model="switches.off"></slateblue-toggle>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -517,83 +511,25 @@
                     <slateblue-pagination page-count="4"></slateblue-pagination>
                     <slateblue-pagination size="lg" page-count="4"></slateblue-pagination>
                 </div>
-                <div class="mb-5">
-                    <h5 class="mb-4 text-uppercase">Typography</h5>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h6 class="mb-4 text-uppercase">Headings</h6>
-                            <h1>h1. Vue Slateblue-UI</h1>
-                            <h2>h2. Vue Slateblue-UI</h2>
-                            <h3>h3. Vue Slateblue-UI</h3>
-                            <h4>h4. Vue Slateblue-UI</h4>
-                            <h5>h5. Vue Slateblue-UI</h5>
-                            <h6>h6. Vue Slateblue-UI</h6>
-                            <h6 class="text-uppercase mt-4 mb-4">Fancy display</h6>
-                            <h3>
-                                Fancy display heading
-                                <small class="text-muted">With faded secondary text</small>
-                            </h3>
-                            <h6 class="text-uppercase mb-4 mt-4">lead</h6>
-                            <p class="lead">
-                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
-                            </p>
-                            <h6 class="mb-4 mt-4">Inline text elements</h6>
-                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
-                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
-                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
-                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-                            <p><u>This line of text will render as underlined</u></p>
-                            <p><small>This line of text is meant to be treated as fine print.</small></p>
-                            <p><strong>This line rendered as bold text.</strong></p>
-                            <p><em>This line rendered as italicized text.</em></p>
-                        </div>
-                        <div class="col-md-6">
-                            <h6 class="mb-4 text-uppercase">Display</h6>
-                            <h1 class="display-1">Display 1</h1>
-                            <h1 class="display-2">Display 2</h1>
-                            <h1 class="display-3">Display 3</h1>
-                            <h1 class="display-4">Display 4</h1>
-                            <h6 class="mb-4 mt-4 text-uppercase">Blockquotes</h6>
-                            <blockquote class="blockquote">
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            </blockquote>
-                            <h6 class="mb-4 mt-4 text-uppercase">text colors</h6>
-                            <p class="text-primary">.text-primary</p>
-                            <p class="text-secondary">.text-secondary</p>
-                            <p class="text-success">.text-success</p>
-                            <p class="text-danger">.text-danger</p>
-                            <p class="text-warning">.text-warning</p>
-                            <p class="text-info">.text-info</p>
-                            <p class="text-light bg-dark">.text-light</p>
-                            <p class="text-dark">.text-dark</p>
-                            <p class="text-body">.text-body</p>
-                            <p class="text-muted">.text-muted</p>
-                            <p class="text-white bg-dark">.text-white</p>
-                            <p class="text-black-50">.text-black-50</p>
-                            <p class="text-white-50 bg-dark">.text-white-50</p>
-                        </div>
-                    </div>
 
-
-                </div>
                 <div class="mb-5">
                     <h5 class="mb-5 mt-5 text-uppercase">Images </h5>
                    <div class="row">
                        <div class="col-md-3">
                            <h6 class="mb-4 text-uppercase">Rounded</h6>
-                           <img class='img-fluid rounded' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                           <img class='img-fluid rounded' src="../assets/img/kajal800.png" alt="vue slateblue-ui images">
                        </div>
                        <div class="col-md-3">
                            <h6 class="mb-4 text-uppercase">Circle</h6>
-                           <img class='img-fluid rounded-circle' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                           <img class='img-fluid rounded-circle' src="../assets/img/kajal800.png" alt="vue slateblue-ui images">
                        </div>
                        <div class="col-md-3">
                            <h6 class="mb-4 text-uppercase">Thumbnail</h6>
-                           <img class='img-fluid img-thumbnail' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                           <img class='img-fluid img-thumbnail' src="../assets/img/kajal800.png" alt="vue slateblue-ui images">
                        </div>
                        <div class="col-md-3">
                            <h6 class="mb-4 text-uppercase">Shadow</h6>
-                           <img class='img-fluid rounded shadow' src="../assets/img/kajal23.png" alt="vue slateblue-ui images">
+                           <img class='img-fluid rounded shadow' src="../assets/img/kajal800.png" alt="vue slateblue-ui images">
                        </div>
                    </div>
                 </div>
@@ -604,7 +540,7 @@
                             <slateblue-button color="primary" size="block" data-toggle="modal" data-target="#exampleModal">
                                 demo modal
                             </slateblue-button>
-                            <slateblue-modal size="xl" target="exampleModal">
+                            <slateblue-modal target="exampleModal">
                                 <slateblue-modal-header>
                                     <h5 class="modal-title text-uppercase" >Defaul demo modal</h5>
                                     <slateblue-close dismiss="modal"></slateblue-close>
@@ -736,10 +672,98 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h5 class="mb-4 text-uppercase">tooltips</h5>
-                            <slateblue-button color="info" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Top</slateblue-button>
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                                Tooltip on top
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                                Tooltip on right
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                                Tooltip on bottom
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+                                Tooltip on left
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="mb-4 text-uppercase">Popovers</h5>
+                            <button id="button" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                Popover on top
+                            </button>
 
+                            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                Popover on right
+                            </button>
+
+                            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+                                Popover on bottom
+                            </button>
+
+                            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                Popover on left
+                            </button>
                         </div>
                     </div>
+                </div>
+                <div class="mb-5">
+                    <h5 class="mb-4 text-uppercase">Typography</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">Headings</h6>
+                            <h1>h1. Vue Slateblue-UI</h1>
+                            <h2>h2. Vue Slateblue-UI</h2>
+                            <h3>h3. Vue Slateblue-UI</h3>
+                            <h4>h4. Vue Slateblue-UI</h4>
+                            <h5>h5. Vue Slateblue-UI</h5>
+                            <h6>h6. Vue Slateblue-UI</h6>
+                            <h6 class="text-uppercase mt-4 mb-4">Fancy display</h6>
+                            <h3>
+                                Fancy display heading
+                                <small class="text-muted">With faded secondary text</small>
+                            </h3>
+                            <h6 class="text-uppercase mb-4 mt-4">lead</h6>
+                            <p class="lead">
+                                Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                            </p>
+                            <h6 class="mb-4 mt-4">Inline text elements</h6>
+                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                            <p><u>This line of text will render as underlined</u></p>
+                            <p><small>This line of text is meant to be treated as fine print.</small></p>
+                            <p><strong>This line rendered as bold text.</strong></p>
+                            <p><em>This line rendered as italicized text.</em></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">Display</h6>
+                            <h1 class="display-1">Display 1</h1>
+                            <h1 class="display-2">Display 2</h1>
+                            <h1 class="display-3">Display 3</h1>
+                            <h1 class="display-4">Display 4</h1>
+                            <h6 class="mb-4 mt-4 text-uppercase">Blockquotes</h6>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                            <h6 class="mb-4 mt-4 text-uppercase">text colors</h6>
+                            <p class="text-primary">.text-primary</p>
+                            <p class="text-secondary">.text-secondary</p>
+                            <p class="text-success">.text-success</p>
+                            <p class="text-danger">.text-danger</p>
+                            <p class="text-warning">.text-warning</p>
+                            <p class="text-info">.text-info</p>
+                            <p class="text-light bg-dark">.text-light</p>
+                            <p class="text-dark">.text-dark</p>
+                            <p class="text-body">.text-body</p>
+                            <p class="text-muted">.text-muted</p>
+                            <p class="text-white bg-dark">.text-white</p>
+                            <p class="text-black-50">.text-black-50</p>
+                            <p class="text-white-50 bg-dark">.text-white-50</p>
+                        </div>
+                    </div>
+
+
                 </div>
           </div>
 
@@ -748,7 +772,7 @@
 </template>
 
 <script>
-
+    import Jquery from 'jquery';
     export default {
         name: "home",
         data() {
@@ -757,16 +781,17 @@
                 lovingVue: "",
                 radio1: "",
                 radio2: "",
-                switches: {
-                    off: false,
-                    on: true
-                },
                 date:""
             }
         },
         mounted() {
-
+           let $ = Jquery;
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+                $('[data-toggle="popover"]').popover()
+            });
         }
+
     }
 </script>
 

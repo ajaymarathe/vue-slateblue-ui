@@ -3,13 +3,12 @@
            >
         <slot></slot>
     </button>
-    <button v-else :class="[classObject.color,classObject.size,classObject.display]">
+    <button v-else :class="[classObject.color,classObject.size,classObject.display]"  >
         <slot></slot>
     </button>
 </template>
 
 <script>
-    import JQuery from 'jquery';
     export default {
         name: 'slateblueButton',
         props: {
@@ -34,10 +33,6 @@
                 }
             }
         },
-        mounted() {
-            let $ = JQuery;
-            $('.btn').tooltip('show')
-        }
     }
 </script>
 

@@ -5,7 +5,6 @@
         </ul>
         <div class="tab-content" id="myTabContent">
             <slot name="tab-content">
-<!--                fsdfds-->
             </slot>
         </div>
     </div>

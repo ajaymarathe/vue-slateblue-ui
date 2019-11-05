@@ -1,15 +1,22 @@
 <template>
     <div class="carousel-item active">
-        <img src="../../assets/img/kajal4.png" class="d-block w-100" alt="...">
+        <img :src="img" class="d-block w-100" alt="...">
+        {{img}}
     </div>
 </template>
 
 <script>
     export default {
         name: 'slateblueSlide',
-        props: {
-            img: String,
+        props: ['path'],
+        data(){
+          return {
+              img: this.path,
+          }
         },
+        mounted() {
+            console.log(this.path);
+        }
     }
 </script>
 

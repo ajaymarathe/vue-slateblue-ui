@@ -1,7 +1,7 @@
 <template>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <slateblue-slide img="../../assets/img/kajal4.png"></slateblue-slide>
+            <slateblue-slide :path="snippets.img"></slateblue-slide>
             <div class="carousel-item">
                 <img src="../../assets/img/kajal4.png" class="d-block w-100" alt="...">
             </div>
@@ -25,6 +25,18 @@
         name: "slateblueCarousel",
         props:{
 
+        },
+        data(){
+            return {
+                snippets: [
+                    {
+                        img: "../../assets/img/kajal4.png",
+                        title: 'Alerts with Icons',
+                        subtitle: 'Bootstrap Alerts with Icons provide contextual feedback messages for typical user actions.',
+                        path: '/snippet/alerts'
+                    }
+                ]
+            }
         }
     }
 </script>

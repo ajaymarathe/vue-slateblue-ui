@@ -15,9 +15,6 @@
             target:String,
             size: String,
         },
-        mounted() {
-            console.log(this.size)
-        }
 
     }
 </script>

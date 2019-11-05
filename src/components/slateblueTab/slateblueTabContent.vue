@@ -1,5 +1,5 @@
 <template>
-    <div class="tab-pane fade show " :id="section" role="tabpanel" aria-labelledby="home-tab">
+    <div :class="'tab-pane fade show '+tab" :id="section" role="tabpanel" aria-labelledby="home-tab">
         <slot></slot>
     </div>
 </template>
@@ -9,11 +9,10 @@
         name: "slateblueTabContent",
         props: {
             section:String,
-            tab: String
+            tab: {
+                type: String,
+            }
         },
-        mounted() {
-            console.log(this.id)
-        }
     }
 </script>
 

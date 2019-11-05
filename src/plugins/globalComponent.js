@@ -14,7 +14,6 @@ import slateblueSlide from "../components/slateblueCarousel/slateblueSlide";
 import slateblueInputs from "../components/slateblueInputs";
 import slateblueCheckbox from "../components/slateblueCheckbox";
 import slateblueRadio from "../components/slateblueRadio";
-import slateblueToggle from "../components/slateblueToggle";
 import slateblueNavbar from "../components/slateblueNavbar";
 import slateblueTab from "../components/slateblueTab/slateblueTab";
 import slateblueTabItem from "../components/slateblueTab/slateblueTabItem";
@@ -47,7 +46,6 @@ export default {
         Vue.component(slateblueInputs.name, slateblueInputs);
         Vue.component(slateblueCheckbox.name, slateblueCheckbox);
         Vue.component(slateblueRadio.name, slateblueRadio);
-        Vue.component(slateblueToggle.name, slateblueToggle);
         Vue.component(slateblueNavbar.name, slateblueNavbar);
         Vue.component(slateblueTab.name, slateblueTab);
         Vue.component(slateblueTabItem.name, slateblueTabItem);
