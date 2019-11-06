@@ -1,21 +1,17 @@
 <template>
-    <div class="carousel-item active">
-        <img :src="img" class="d-block w-100" alt="...">
-        {{img}}
-    </div>
+    <a :class="'carousel-control-'+type" :href="'#'+target" role="button" :data-slide="type">
+        <span :class="'carousel-control-'+type+'-icon'" aria-hidden="true"></span>
+        <span class="sr-only">{{title}}</span>
+    </a>
 </template>
 
 <script>
     export default {
         name: 'slateblueSlide',
-        props: ['path'],
-        data(){
-          return {
-              img: this.path,
-          }
-        },
-        mounted() {
-            console.log(this.path);
+        props:{
+            target: String,
+            title: String,
+            type:String,
         }
     }
 </script>

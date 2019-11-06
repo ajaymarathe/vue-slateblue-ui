@@ -11,6 +11,9 @@ import slateblueCardFooter from "../components/slateblueCard/slateblueCardFooter
 import slateblueCardOverlay from "../components/slateblueCard/slateblueCardOverlay";
 import slateblueCarousel from "../components/slateblueCarousel/slateblueCarousel";
 import slateblueSlide from "../components/slateblueCarousel/slateblueSlide";
+import slateblueSlideIndicator from "../components/slateblueCarousel/slateblueSlideIndicator";
+import slateblueCarouselnner from "../components/slateblueCarousel/slateblueCarouselnner";
+import slateblueCarouselCaption from "../components/slateblueCarousel/slateblueCarouselCaption";
 import slateblueInputs from "../components/slateblueInputs";
 import slateblueCheckbox from "../components/slateblueCheckbox";
 import slateblueRadio from "../components/slateblueRadio";
@@ -19,19 +22,18 @@ import slateblueTab from "../components/slateblueTab/slateblueTab";
 import slateblueTabItem from "../components/slateblueTab/slateblueTabItem";
 import slateblueTabContent from "../components/slateblueTab/slateblueTabContent";
 import slateblueProgress from "../components/slateblueProgress";
-import slatebluePagination from "../components/slatebluePagination";
 import slateblueModal from "../components/slateblueModal/slateblueModal";
 import slateblueModalHeader from "../components/slateblueModal/slateblueModalHeader";
 import slateblueClose from "../components/slateblueClose";
 import slateblueModalBody from "../components/slateblueModal/slateblueModalBody";
 import slateblueModalFooter from "../components/slateblueModal/slateblueModalFooter";
+import slateblueSpinner from "../components/slateblueSpinner";
 
 
 export default {
     install(Vue) {
         Vue.component(navbar.name, navbar);
         Vue.component(VueFontawesome.name, VueFontawesome);
-
 
         Vue.component(slateblueAlert.name, slateblueAlert);
         Vue.component(slateblueBadge.name, slateblueBadge);
@@ -43,6 +45,9 @@ export default {
         Vue.component(slateblueCardOverlay.name, slateblueCardOverlay);
         Vue.component(slateblueCarousel.name, slateblueCarousel);
         Vue.component(slateblueSlide.name, slateblueSlide);
+        Vue.component(slateblueSlideIndicator.name, slateblueSlideIndicator);
+        Vue.component(slateblueCarouselnner.name, slateblueCarouselnner);
+        Vue.component(slateblueCarouselCaption.name, slateblueCarouselCaption);
         Vue.component(slateblueInputs.name, slateblueInputs);
         Vue.component(slateblueCheckbox.name, slateblueCheckbox);
         Vue.component(slateblueRadio.name, slateblueRadio);
@@ -51,11 +56,11 @@ export default {
         Vue.component(slateblueTabItem.name, slateblueTabItem);
         Vue.component(slateblueTabContent.name, slateblueTabContent);
         Vue.component(slateblueProgress.name, slateblueProgress);
-        Vue.component(slatebluePagination.name, slatebluePagination);
         Vue.component(slateblueModal.name, slateblueModal);
         Vue.component(slateblueModalHeader.name, slateblueModalHeader);
         Vue.component(slateblueClose.name, slateblueClose);
         Vue.component(slateblueModalBody.name, slateblueModalBody);
         Vue.component(slateblueModalFooter.name, slateblueModalFooter);
+        Vue.component(slateblueSpinner.name, slateblueSpinner);
     }
 };

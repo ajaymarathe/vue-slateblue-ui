@@ -187,7 +187,76 @@
                         </div>
                         <h5 class="mb-4 text-uppercase">Carousel</h5>
                         <div class="mb-5">
-                            <slateblue-carousel></slateblue-carousel>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <slateblue-carousel target="firstCarousel" >
+                                        <slateblue-carousel-inner>
+                                            <div class="carousel-item active">
+                                                <img src="../assets/img/kajal11.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption>
+                                                    <h5 class="text-white">First slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../assets/img/kajal1.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption>
+                                                    <h5 class="text-white">Second slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../assets/img/kajal12.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption>
+                                                    <h5 class="text-white">Third slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                        </slateblue-carousel-inner>
+                                        <slateblue-slide target="firstCarousel" title="Previous" type="prev" ></slateblue-slide>
+                                        <slateblue-slide target="firstCarousel" title="Previous" type="next"></slateblue-slide>
+                                        <ol class="carousel-indicators" >
+                                            <slateblue-slide-indicator target="firstCarousel" index="0"></slateblue-slide-indicator>
+                                            <slateblue-slide-indicator target="firstCarousel" index="1"></slateblue-slide-indicator>
+                                            <slateblue-slide-indicator target="firstCarousel" index="2"></slateblue-slide-indicator>
+                                        </ol>
+                                    </slateblue-carousel>
+                                </div>
+                                <div class="col-md-6">
+                                    <slateblue-carousel target="seconCarousel" animation="fade" >
+                                        <slateblue-carousel-inner>
+                                            <div class="carousel-item active">
+                                                <img src="../assets/img/kajal1.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption >
+                                                    <h5 class="text-white">First slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../assets/img/kajal11.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption>
+                                                    <h5 class="text-white">Second slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../assets/img/kajal12.png" class="d-block w-100" alt="...">
+                                                <slateblue-carousel-caption>
+                                                    <h5 class="text-white">Third slide label</h5>
+                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                </slateblue-carousel-caption>
+                                            </div>
+                                        </slateblue-carousel-inner>
+                                        <slateblue-slide target="seconCarousel" title="Previous" type="prev" ></slateblue-slide>
+                                        <slateblue-slide target="seconCarousel" title="Previous" type="next"></slateblue-slide>
+                                        <ol class="carousel-indicators" >
+                                            <slateblue-slide-indicator target="seconCarousel" index="0"></slateblue-slide-indicator>
+                                            <slateblue-slide-indicator target="seconCarousel" index="1"></slateblue-slide-indicator>
+                                            <slateblue-slide-indicator target="seconCarousel" index="2"></slateblue-slide-indicator>
+                                        </ol>
+                                    </slateblue-carousel>
+                                </div>
+                            </div>
                         </div>
                         <h5 class="mb-4">Forms</h5>
                         <div class="mb-5">
@@ -499,17 +568,102 @@
                 </div>
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Progress bar</h5>
-                    <slateblue-progress size="2" class="mb-3" color="primary" width="25"></slateblue-progress>
+                    <slateblue-progress size=".2" class="mb-3" color="danger" width="35"></slateblue-progress>
+                    <slateblue-progress size=".5" class="mb-3" color="dark" width="65"></slateblue-progress>
+                    <slateblue-progress size="1" class="mb-3" color="primary" width="25"></slateblue-progress>
                     <slateblue-progress  class="mb-3" color="warning" type="striped"  width="45"></slateblue-progress>
                     <slateblue-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></slateblue-progress>
-                    <slateblue-progress  size="3" class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
-                    <slateblue-progress class="mb-3" color="danger" width="35"></slateblue-progress>
+                    <slateblue-progress  size="2" class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
+                </div>
+                <div class="mb-5">
+                    <h5 class="text-uppercase mb-4">Spinner</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">border</h6>
+                            <slateblue-spinner size="4" type="border" color="primary"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="secondary"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="danger"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="warning"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="info"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="light"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="border" color="dark"></slateblue-spinner>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="mb-4 text-uppercase">Grow</h6>
+                            <slateblue-spinner size="4" type="grow" color="primary"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="secondary"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="danger"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="warning"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="info"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="light"></slateblue-spinner>
+                            <slateblue-spinner size="4" type="grow" color="dark"></slateblue-spinner>
+                        </div>
+                    </div>
                 </div>
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Pagination</h5>
-                    <slateblue-pagination size="sm" page-count="4"></slateblue-pagination>
-                    <slateblue-pagination page-count="4"></slateblue-pagination>
-                    <slateblue-pagination size="lg" page-count="4"></slateblue-pagination>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 class="mb-4 text-uppercase">Small</h6>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination pagination-sm">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link " href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-4 text-uppercase">medium</h6>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-4 text-uppercase">large</h6>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination pagination-lg">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mb-5">
@@ -566,30 +720,14 @@
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="mb-4">Spinners</h5>
-                                    <div class="spinner-border text-primary" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-secondary" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-success" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-danger" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-warning" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-info" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-light" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-dark" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
+                                    <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
+                                    <slateblue-spinner size="4" type="grow" color="primary"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="secondary"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="success"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="danger"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="warning"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="light"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="dark"></slateblue-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -607,16 +745,15 @@
                                     <slateblue-close dismiss="modal"></slateblue-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                            <input type="text" class="form-control" id="recipient-name">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message-text" class="col-form-label">Message:</label>
-                                            <textarea class="form-control" id="message-text"></textarea>
-                                        </div>
-                                    </form>
+                                    <h5 class="mb-4">Spinners</h5>
+                                    <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
+                                    <slateblue-spinner type="border" color="primary"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="secondary"></slateblue-spinner>
+                                    <slateblue-spinner size="5" type="border" color="success"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="danger"></slateblue-spinner>
+                                    <slateblue-spinner size="5" type="border" color="warning"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="light"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="dark"></slateblue-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -635,30 +772,14 @@
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="mb-4">Spinners</h5>
-                                    <div class="spinner-border text-primary" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-secondary" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-success" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-danger" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-warning" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-info" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-light" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
-                                    <div class="spinner-border text-dark" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>
+                                    <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
+                                    <slateblue-spinner type="grow" color="primary"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="secondary"></slateblue-spinner>
+                                    <slateblue-spinner  size="5" type="grow" color="success"></slateblue-spinner>
+                                    <slateblue-spinner  size="5" type="border" color="danger"></slateblue-spinner>
+                                    <slateblue-spinner type="grow" color="warning"></slateblue-spinner>
+                                    <slateblue-spinner type="border" color="light"></slateblue-spinner>
+                                    <slateblue-spinner size="5" type="grow" color="dark"></slateblue-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

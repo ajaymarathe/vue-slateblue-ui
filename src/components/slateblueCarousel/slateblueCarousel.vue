@@ -1,22 +1,6 @@
 <template>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <slateblue-slide :path="snippets.img"></slateblue-slide>
-            <div class="carousel-item">
-                <img src="../../assets/img/kajal4.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="../../assets/img/kajal4.png" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <div :id="target" :class="'carousel slide carousel-'+animation" data-ride="carousel">
+        <slot></slot>
     </div>
 </template>
 
@@ -24,20 +8,9 @@
     export default {
         name: "slateblueCarousel",
         props:{
-
+            target: String,
+            animation:String
         },
-        data(){
-            return {
-                snippets: [
-                    {
-                        img: "../../assets/img/kajal4.png",
-                        title: 'Alerts with Icons',
-                        subtitle: 'Bootstrap Alerts with Icons provide contextual feedback messages for typical user actions.',
-                        path: '/snippet/alerts'
-                    }
-                ]
-            }
-        }
     }
 </script>
 
