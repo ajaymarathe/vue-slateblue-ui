@@ -236,6 +236,10 @@ body {
   .btn{
     text-transform: uppercase;
   }
+  .intro-overlay{
+    background-image: url(http://bootcatch.com/img/overlay.svg);
+    background-size: cover;
+  }
 }
 
 //button styling

@@ -14,7 +14,7 @@
         data(){
             return {
                 badge: "badge badge-" + this.color,
-                badgeSize: "badge-" + this.type
+                badgeSize: this.type
             }
         }
     }
