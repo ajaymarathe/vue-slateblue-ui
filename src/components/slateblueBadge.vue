@@ -14,7 +14,7 @@
         data(){
             return {
                 badge: "badge badge-" + this.color,
-                badgeSize: this.type
+                badgeSize: 'rounded-'+this.type
             }
         }
     }

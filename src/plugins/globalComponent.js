@@ -28,6 +28,7 @@ import slateblueClose from "../components/slateblueClose";
 import slateblueModalBody from "../components/slateblueModal/slateblueModalBody";
 import slateblueModalFooter from "../components/slateblueModal/slateblueModalFooter";
 import slateblueSpinner from "../components/slateblueSpinner";
+import slateblueFooter from "../components/layout/slateblueFooter";
 
 
 export default {
@@ -62,5 +63,6 @@ export default {
         Vue.component(slateblueModalBody.name, slateblueModalBody);
         Vue.component(slateblueModalFooter.name, slateblueModalFooter);
         Vue.component(slateblueSpinner.name, slateblueSpinner);
+        Vue.component(slateblueFooter.name, slateblueFooter);
     }
 };

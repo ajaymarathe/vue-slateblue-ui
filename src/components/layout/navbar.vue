@@ -17,9 +17,6 @@
             </ul>
             <ul class="navbar-nav ml-auto d-md-flex align-items-md-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Components</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link" href="#">
                         <a  class="btn btn-light d-flex align-items-center text-primary">
                             <vue-fontawesome class="mr-2" icon="cloud-download" size=".8" color="#5C46EA"></vue-fontawesome>

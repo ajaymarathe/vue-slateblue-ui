@@ -15,8 +15,18 @@
                             <p class="lead">A beautiful Design System for Vue Lovers based on bootstrap 4.3. It's Free and
                                 Open Source.</p>
                             <div>
-                                <button class="btn btn-primary mr-2">components</button>
-                                <button class="btn btn-light">download</button>
+                                <slateblue-button color="primary" class="mr-2">
+                                    <div class="d-flex align-items-center">
+                                        <vue-fontawesome class="mr-2" size="1.3" icon="shield"></vue-fontawesome>
+                                        components
+                                    </div>
+                                </slateblue-button>
+                                <slateblue-button color="light">
+                                    <div class="d-flex align-items-center">
+                                        <vue-fontawesome class="mr-2" size="1.6" icon="angle-down"></vue-fontawesome>
+                                        <span>download</span>
+                                    </div>
+                                </slateblue-button>
                             </div>
                         </div>
                     </div>
@@ -319,6 +329,15 @@
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-4">
+                                    <h6 class="text-uppercase">Default</h6>
+                                    <slateblue-badge class="mr-1" color="primary" > primary</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="danger" >danger</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="info" > info</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="warning" > warning</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="light" > light</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="success" > success</slateblue-badge>
+                                </div>
+                                <div class="col-md-4">
                                     <h6 class="text-uppercase">Pill</h6>
                                     <slateblue-badge class="mr-1" color="primary" type="pill">primary</slateblue-badge>
                                     <slateblue-badge class="mr-1" color="danger" type="pill">danger</slateblue-badge>
@@ -327,23 +346,15 @@
                                     <slateblue-badge class="mr-1" color="light" type="pill"> light</slateblue-badge>
                                     <slateblue-badge class="mr-1" color="success" type="pill"> success</slateblue-badge>
                                 </div>
-                                <div class="col-md-4">
-                                    <h6 class="text-uppercase">Rounded</h6>
-                                    <slateblue-badge class="mr-1" color="primary" type="rounded"> primary</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="danger" type="rounded">danger</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="info" type="rounded"> info</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="warning" type="rounded"> warning</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="light" type="rounded"> light</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="success" type="rounded"> success</slateblue-badge>
-                                </div>
+
                                 <div class="col-md-4">
                                     <h6 class="text-uppercase">Square</h6>
-                                    <slateblue-badge class="mr-1" color="primary" type="rounded-0"> primary</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="danger" type="rounded-0">danger</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="info" type="rounded-0"> info</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="warning" type="rounded-0"> warning</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="light" type="rounded-0"> light</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="success" type="rounded-0"> success</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="primary" type="0"> primary</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="danger" type="0">danger</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="info" type="0"> info</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="warning" type="0"> warning</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="light" type="0"> light</slateblue-badge>
+                                    <slateblue-badge class="mr-1" color="success" type="0"> success</slateblue-badge>
                                 </div>
                             </div>
                         </div>
@@ -885,14 +896,93 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Typography</h5>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12 mb-5">
                             <h6 class="mb-4 text-uppercase">Headings</h6>
-                            <h1>h1. Vue Slateblue-UI</h1>
-                            <h2>h2. Vue Slateblue-UI</h2>
-                            <h3>h3. Vue Slateblue-UI</h3>
-                            <h4>h4. Vue Slateblue-UI</h4>
-                            <h5>h5. Vue Slateblue-UI</h5>
-                            <h6>h6. Vue Slateblue-UI</h6>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 1</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="text-uppercase">Vue Slateblue-UI</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 3</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="text-uppercase">Vue Slateblue-UI</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 3</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h3 class="text-uppercase">Vue Slateblue-UI</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 4</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4 class="text-uppercase">Vue Slateblue-UI</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 5</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h5>Vue Slateblue-UI</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">heading 6</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h6>Vue Slateblue-UI</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12">
+                            <h6 class="mb-4 text-uppercase">Display</h6>
+                            <div class="row align-items-center">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted mt-5">display 1</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="display-1 text-uppercase">Display 1</h1>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">display 2</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="display-2 text-uppercase">Display 2</h1>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">display 1</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="display-3 text-uppercase">Display 3</h1>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-3">
+                                    <span class="text-uppercase text-muted">display 1</span>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="display-4 text-uppercase">Display 4</h1>
+                                </div>
+                            </div>
+
                             <h6 class="text-uppercase mt-4 mb-4">Fancy display</h6>
                             <h3>
                                 Fancy display heading
@@ -911,13 +1001,6 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                             <p><small>This line of text is meant to be treated as fine print.</small></p>
                             <p><strong>This line rendered as bold text.</strong></p>
                             <p><em>This line rendered as italicized text.</em></p>
-                        </div>
-                        <div class="col-md-6">
-                            <h6 class="mb-4 text-uppercase">Display</h6>
-                            <h1 class="display-1">Display 1</h1>
-                            <h1 class="display-2">Display 2</h1>
-                            <h1 class="display-3">Display 3</h1>
-                            <h1 class="display-4">Display 4</h1>
                             <h6 class="mb-4 mt-4 text-uppercase">Blockquotes</h6>
                             <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -944,6 +1027,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
           </div>
 
         </div>
+        <slateblue-footer></slateblue-footer>
     </div>
 </template>
 
