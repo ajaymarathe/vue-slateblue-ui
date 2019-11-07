@@ -2,8 +2,8 @@
     <div class="login-screen d-flex align-items-center ">
       <div class="container">
           <div class="row justify-content-around">
-              <div class="col-md-6 col">
-                  <h3 class="text-uppercase">Slateblue-Ui</h3>
+              <div class="col-md-6 col black-overlay p-4 text-white">
+                  <h3 class="text-uppercase">Register</h3>
                   <hr>
                   <form>
                       <div class="form-group">
@@ -13,7 +13,7 @@
                       <div class="form-group">
                           <label class="text-uppercase">Email address</label>
                           <slateblue-inputs type="email" class="form-control" placeholder="Enter email"></slateblue-inputs>
-                          <small  class="form-text text-muted text-uppercase">We'll never share your email with anyone else.</small>
+                          <small  class="form-text text-uppercase">We'll never share your email with anyone else.</small>
                       </div>
                       <div class="form-group">
                           <label class="text-uppercase">Password</label>

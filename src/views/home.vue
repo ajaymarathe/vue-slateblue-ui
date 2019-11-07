@@ -32,7 +32,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="section-two">
             <div class="mb-5 mt-4">
@@ -242,7 +241,6 @@
                     </div>
                 </slateblue-navbar>
             </div>
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -324,7 +322,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <h4 class="mb-4 text-uppercase">Badge</h4>
                         <div class="mb-5">
                             <div class="row">
@@ -411,14 +408,12 @@
                             <slateblue-button class="mr-2" color="danger" type="outline">danger</slateblue-button>
                             <slateblue-button class="mr-2" color="warning" type="outline">warning</slateblue-button>
                         </div>
-
                         <h5 class="mb-4 text-uppercase">Choose your size</h5>
                         <div class="mb-5">
                             <slateblue-button class="mr-2" color="primary" variant="0" size="sm">small</slateblue-button>
                             <slateblue-button class="mr-2" color="light" variant="0">default</slateblue-button>
                             <slateblue-button class="mr-2" color="dark" size="lg" variant="0">large</slateblue-button>
                         </div>
-
                         <h5 class="mb-4 text-uppercase">Block level</h5>
                         <div class="mb-5">
                             <slateblue-button class="mr-2 mt-2" color="dark"  display="block">primary
@@ -443,7 +438,6 @@
                                 </slateblue-dropdown-menu>
                             </slateblue-dropdown>
                         </div>
-
                         <h5 class="mb-4 text-uppercase">Carousel</h5>
                         <div class="mb-5">
                             <div class="row">
@@ -542,7 +536,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-4">
@@ -563,7 +556,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -719,7 +711,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="mb-5">
                     <h5 class="mb-5 mt-5 text-uppercase">Images </h5>
                    <div class="row">
@@ -1042,6 +1033,52 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
 
                 </div>
           </div>
+            <div class="third-section ">
+               <div class="container">
+                   <div class="row justify-content-center">
+                       <div class="col-md-8">
+                           <div class="header text-light ">
+                               <vue-fontawesome class="text-light mb-4" size="3" icon="send"></vue-fontawesome>
+                               <h2 class="text-uppercase text-light mb-4">Vue-fontawesome-icon</h2>
+                               <p class="lead mb-4">There are 675 icons in Font Awesome 4.7.0, easy to use. Which look awesome with Slatblue-UI,
+                               Make sure to read docs first.</p>
+                               <div>
+                                   <router-link to="/login">
+                                    <slateblue-button class="mr-2" color="secondary">read Docs</slateblue-button>
+                                   </router-link>
+                                   <a target="_blank" href="https://fontawesome.com/v4.7.0/icons/">
+                                       <slateblue-button color="dark">View icons</slateblue-button>
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+            <div class="fourth-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="text-uppercase mt-5 mb-4">Slateblue Awesome Design System</h2>
+                            <p class="lead mb-4">Slateblue Design system comes with login and register page to help you get started, also it has it's own
+                            beautiful documentation to help you out. It is based on <a href="http://www.bootcatch.com/slateblue/alerts" target="_blank">Slateblue Theme</a>. Which is based on Bootstrap 4.3.</p>
+                            <slateblue-button color="primary">
+                                See all components
+                            </slateblue-button>
+                        </div>
+                        <div class="col-md-6">
+                            <slateblue-card class="border-success l-shapes light-shadow">
+                                <img class="img-fluid" src="../assets/img/green.jpg" alt="">
+                                <slateblue-card-body>
+                                    <h5 class="card-title">slateblue-card-component</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and
+                                        make up the bulk of the card's content.</p>
+                                </slateblue-card-body>
+                            </slateblue-card>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <slateblue-footer></slateblue-footer>
@@ -1050,6 +1087,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
 
 <script>
     import Jquery from 'jquery';
+
     export default {
         name: "home",
         data() {
@@ -1058,7 +1096,8 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 lovingVue: "",
                 radio1: "",
                 radio2: "",
-                date:""
+                date:"",
+                code: 'npm install vue-prismjs --save'
             }
         },
         mounted() {
@@ -1081,4 +1120,5 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
     input {
         margin-bottom: 1rem;
     }
+
 </style>

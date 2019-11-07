@@ -2,14 +2,14 @@
     <div class="login-screen d-flex align-items-center ">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-md-6 col">
-                    <h3 class="text-uppercase">Slateblue-Ui</h3>
+                <div class="col-md-6 col text-white p-4 black-overlay" >
+                    <h3 class="text-uppercase">Login</h3>
                     <hr>
                     <form>
                         <div class="form-group">
                             <label class="text-uppercase">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small  class="form-text text-muted text-uppercase">We'll never share your email with anyone else.</small>
+                            <small  class="form-text  text-uppercase">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label class="text-uppercase">Password</label>

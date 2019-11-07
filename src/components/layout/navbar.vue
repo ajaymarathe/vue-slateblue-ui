@@ -12,7 +12,15 @@
                     <a class="nav-link" href="#">Components</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Examples</a>
+                    <a class="nav-link" href="#">
+                        <slateblue-dropdown>
+                            <a class="dropdown-toggle"  data-toggle="dropdown">Pages</a>
+                            <slateblue-dropdown-menu>
+                                <router-link class="dropdown-item" to="/login">Login</router-link>
+                                <router-link class="dropdown-item" to="/register">Register</router-link>
+                            </slateblue-dropdown-menu>
+                        </slateblue-dropdown>
+                    </a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto d-md-flex align-items-md-center">
@@ -23,6 +31,11 @@
                             download</a>
                     </router-link>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/ajaymarathe/vue-slateblue-ui" target="_blank">
+                        <vue-fontawesome size="1.5" icon="github" class="text-white"></vue-fontawesome>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -31,7 +44,6 @@
 <script>
     export default {
         name: "navbar",
-
     }
 </script>
 

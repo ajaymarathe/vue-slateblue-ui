@@ -32,6 +32,10 @@ import slateblueFooter from "../components/layout/slateblueFooter";
 import slateblueDropdown from "../components/slateblueDropdown/slateblueDropdown";
 import slateblueDropdownMenu from "../components/slateblueDropdown/slateblueDropdownMenu";
 
+// pages
+import login from '../views/pages/login';
+import register from "../views/pages/register";
+
 
 export default {
     install(Vue) {
@@ -68,5 +72,9 @@ export default {
         Vue.component(slateblueFooter.name, slateblueFooter);
         Vue.component(slateblueDropdown.name, slateblueDropdown);
         Vue.component(slateblueDropdownMenu.name, slateblueDropdownMenu);
+
+        // pages
+        Vue.component(login.name, login);
+        Vue.component(register.name, register);
     }
 };

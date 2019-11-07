@@ -6,6 +6,7 @@ Vue.config.productionTip = false
 
 import SlateBlue from './plugins/slateBlue';
 
+
 Vue.use(SlateBlue);
 
 new Vue({
