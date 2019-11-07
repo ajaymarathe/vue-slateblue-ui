@@ -426,9 +426,17 @@
                         </div>
                         <div class="mb-5">
                             <h5 class="mb-4 text-uppercase">Dropdown</h5>
-                            <slateblue-dropdown >
-                                <slateblue-button class="dropdown-toggle" color="secondary"  id="dropdownMenuButton" data-toggle="dropdown">Dropdown Button</slateblue-button>
+                            <slateblue-dropdown  class="d-inline-block">
+                                <slateblue-button class="dropdown-toggle" color="secondary"  data-toggle="dropdown">Dropdown Button</slateblue-button>
                                 <slateblue-dropdown-menu align="right">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </slateblue-dropdown-menu>
+                            </slateblue-dropdown>
+                            <slateblue-dropdown  class="d-inline-block ml-2">
+                                <slateblue-button class="dropdown-toggle" color="dark"  data-toggle="dropdown">Dropdown Button</slateblue-button>
+                                <slateblue-dropdown-menu>
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>

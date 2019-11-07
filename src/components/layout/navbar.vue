@@ -17,11 +17,11 @@
             </ul>
             <ul class="navbar-nav ml-auto d-md-flex align-items-md-center">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">
+                    <router-link class="nav-link" to="/login">
                         <a  class="btn btn-light d-flex align-items-center text-primary">
                             <vue-fontawesome class="mr-2" icon="cloud-download" size=".8" color="#5C46EA"></vue-fontawesome>
                             download</a>
-                    </a>
+                    </router-link>
                 </li>
             </ul>
         </div>
