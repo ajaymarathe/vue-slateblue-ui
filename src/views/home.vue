@@ -424,6 +424,17 @@
                             <slateblue-button class="mr-2 mt-2" color="dark"  display="block">primary
                             </slateblue-button>
                         </div>
+                        <div class="mb-5">
+                            <h5 class="mb-4 text-uppercase">Dropdown</h5>
+                            <slateblue-dropdown >
+                                <slateblue-button class="dropdown-toggle" color="secondary"  id="dropdownMenuButton" data-toggle="dropdown">Dropdown Button</slateblue-button>
+                                <slateblue-dropdown-menu align="right">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </slateblue-dropdown-menu>
+                            </slateblue-dropdown>
+                        </div>
 
                         <h5 class="mb-4 text-uppercase">Carousel</h5>
                         <div class="mb-5">
@@ -549,14 +560,12 @@
                 </div>
             </div>
 
-
-
             <div class="container">
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Tabs</h5>
                     <div class="row">
                         <div class="col-md-6">
-                            <slateblue-tab class="bg-light p-1">
+                            <slateblue-tab class="bg-light p-2">
                                 <template v-slot:tab-item>
                                     <slateblue-tab-item tab="active" target="home">Home</slateblue-tab-item>
                                     <slateblue-tab-item target="profile">profile</slateblue-tab-item>
@@ -579,7 +588,7 @@
                             </slateblue-tab>
                         </div>
                         <div class="col-md-6">
-                            <slateblue-tab class="bg-light p-1">
+                            <slateblue-tab class="bg-light  p-2">
                                 <template v-slot:tab-item>
                                     <slateblue-tab-item tab="active" target="school">school</slateblue-tab-item>
                                     <slateblue-tab-item target="college">college</slateblue-tab-item>
