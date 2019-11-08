@@ -874,32 +874,41 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 </div>
                 <h4 class="text-primary mb-4 text-uppercase">Alerts</h4>
                 <div class="mb-5">
-                    <slateblue-alert color="primary">
-                        <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
-                        A simple primary alert—check it out!
-                    </slateblue-alert>
-                    <slateblue-alert color="secondary">
-                        <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
-                        A simple secondary alert—check it out!
-                    </slateblue-alert>
-                    <slateblue-alert color="danger">
-                        A simple danger alert—check it out!
-                    </slateblue-alert>
-                    <slateblue-alert color="warning">
-                        A simple warning alert—check it out!
-                    </slateblue-alert>
-                    <slateblue-alert color="info">
-                        A simple info alert—check it out!
-                    </slateblue-alert>
-                    <slateblue-alert color="success">
-                        <h4 class="alert-heading">Well done!</h4>
-                        <p>Aww yeah, you successfully read this important alert message. This example text is
-                            going to run a bit longer so that you can see how spacing within an alert works with
-                            this kind of content.</p>
-                        <hr>
-                        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
-                            nice and tidy.</p>
-                    </slateblue-alert>
+                <slateblue-alert color="primary">
+                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                    A simple primary alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="secondary">
+                    <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
+                    A simple secondary alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="danger">
+                    A simple danger alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="warning">
+                    A simple warning alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="info">
+                    A simple info alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="light">
+                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                    A simple primary alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="dark">
+                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                    A simple primary alert—check it out!
+                </slateblue-alert>
+                <slateblue-alert color="success">
+                    <h4 class="alert-heading text-white">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is
+                        going to run a bit longer so that you can see how spacing within an alert works with
+                        this kind of content.</p>
+                    <hr>
+                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
+                        nice and tidy.</p>
+                </slateblue-alert>
+
                 </div>
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Typography</h5>
@@ -991,16 +1000,16 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                                 </div>
                             </div>
 
-                            <h6 class="text-uppercase mt-4 mb-4">Fancy display</h6>
+                            <h6 class="text-uppercase mt-5 mb-4">Fancy display</h6>
                             <h3>
                                 Fancy display heading
                                 <small class="text-muted">With faded secondary text</small>
                             </h3>
-                            <h6 class="text-uppercase mb-4 mt-4">lead</h6>
+                            <h6 class="text-uppercase mb-4 mt-5">lead</h6>
                             <p class="lead">
                                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
                             </p>
-                            <h6 class="mb-4 mt-4">Inline text elements</h6>
+                            <h6 class="mb-4 mt-5 text-uppercase">Inline text elements</h6>
                             <p>You can use the mark tag to <mark>highlight</mark> text.</p>
                             <p><del>This line of text is meant to be treated as deleted text.</del></p>
                             <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
@@ -1009,11 +1018,11 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                             <p><small>This line of text is meant to be treated as fine print.</small></p>
                             <p><strong>This line rendered as bold text.</strong></p>
                             <p><em>This line rendered as italicized text.</em></p>
-                            <h6 class="mb-4 mt-4 text-uppercase">Blockquotes</h6>
+                            <h6 class="mb-4 mt-5 text-uppercase">Blockquotes</h6>
                             <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                             </blockquote>
-                            <h6 class="mb-4 mt-4 text-uppercase">text colors</h6>
+                            <h6 class="mb-4 mt-5 text-uppercase">text colors</h6>
                             <p class="text-primary">.text-primary</p>
                             <p class="text-secondary">.text-secondary</p>
                             <p class="text-success">.text-success</p>
@@ -1097,7 +1106,6 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 radio1: "",
                 radio2: "",
                 date:"",
-                code: 'npm install vue-prismjs --save'
             }
         },
         mounted() {

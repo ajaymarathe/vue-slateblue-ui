@@ -1,5 +1,11 @@
 <template>
-    <div :class="[colorClass]" role="alert">
+    <div v-if="color == 'secondary' || color == 'light' " :class="[colorClass]"  role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <slot></slot>
+    </div>
+    <div v-else :class="[colorClass]" :style="styleObject"  role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -15,8 +21,10 @@
         },
         data(){
             return {
-                colorClass: "alert alert-" + this.color,
-                dismissibleMethod: false
+                colorClass: "alert bg-" + this.color,
+                styleObject: {
+                    color: 'white',
+                }
             }
         }
     }
