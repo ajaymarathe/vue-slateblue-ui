@@ -874,40 +874,44 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 </div>
                 <h4 class="text-primary mb-4 text-uppercase">Alerts</h4>
                 <div class="mb-5">
-                <slateblue-alert color="primary">
-                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
-                    A simple primary alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="secondary">
-                    <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
-                    A simple secondary alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="danger">
-                    A simple danger alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="warning">
-                    A simple warning alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="info">
-                    A simple info alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="light">
-                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
-                    A simple primary alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="dark">
-                    <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
-                    A simple primary alert—check it out!
-                </slateblue-alert>
-                <slateblue-alert color="success">
-                    <h4 class="alert-heading text-white">Well done!</h4>
-                    <p>Aww yeah, you successfully read this important alert message. This example text is
-                        going to run a bit longer so that you can see how spacing within an alert works with
-                        this kind of content.</p>
-                    <hr>
-                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
-                        nice and tidy.</p>
-                </slateblue-alert>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <slateblue-alert class="py-3" color="primary">
+                                <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                                A simple primary alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="secondary">
+                                <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
+                                A simple secondary alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="danger">
+                                A simple danger alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="warning">
+                                A simple warning alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="info">
+                                A simple info alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="light">
+                                <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                                A simple primary alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="dark">
+                                <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
+                                A simple primary alert—check it out!
+                            </slateblue-alert>
+                            <slateblue-alert class="py-3" color="success">
+                                <h4 class="alert-heading text-white">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is
+                                    going to run a bit longer so that you can see how spacing within an alert works with
+                                    this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
+                                    nice and tidy.</p>
+                            </slateblue-alert>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="mb-5">
