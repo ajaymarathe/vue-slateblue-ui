@@ -15,7 +15,7 @@
 
 <script>
     export default {
-        name: 'slateblueAlert',
+        name: 'BaseAlert',
         props: {
             color: String,
         },

@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "slateblueClose",
+        name: "BaseClose",
         props: {
             dismiss: String
         }

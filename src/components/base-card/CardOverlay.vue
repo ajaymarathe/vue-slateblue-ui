@@ -1,13 +1,12 @@
 <template>
-    <div class="modal-header">
+    <div class="card-img-overlay">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'slateblueModalHeader',
-
+        name: 'CardOverlay'
     }
 </script>
 

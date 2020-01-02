@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'slateblueBadge',
+        name: 'BaseBadge',
         props:{
             color:String,
             type: String

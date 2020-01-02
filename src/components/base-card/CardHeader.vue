@@ -1,12 +1,12 @@
 <template>
-    <div class="card-footer">
+    <div class="card-header">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'slateblueCardFooter'
+        name:'CardHeader',
     }
 </script>
 

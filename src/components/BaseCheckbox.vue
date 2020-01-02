@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "slateblueCheckbox",
+  name: "BaseCheckbox",
   model: {
     prop: "checked",
     event: "change"

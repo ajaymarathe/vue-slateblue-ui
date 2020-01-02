@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "slateblueRadio",
+  name: "BaseRadio",
   model: {
     prop: "checked",
     event: "change"

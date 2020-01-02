@@ -1,12 +1,12 @@
 <template>
-    <div class="modal-footer">
+    <div class="modal-header">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'slateblueModalFooter',
+        name: 'ModalHeader',
     }
 </script>
 

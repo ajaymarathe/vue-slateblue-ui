@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "slateblueCardBody"
+        name: "CardBody"
     }
 </script>
 

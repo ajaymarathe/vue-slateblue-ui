@@ -1,12 +1,12 @@
 <template>
-    <div class="card-img-overlay">
+    <div class="card-footer">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'slateblueCardOverlay'
+        name: 'CardFooter'
     }
 </script>
 

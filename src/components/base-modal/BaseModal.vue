@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: 'slateblueModal',
+        name: 'BaseModal',
         props: {
             target:String,
             size: String,

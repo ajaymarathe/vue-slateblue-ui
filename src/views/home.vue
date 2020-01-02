@@ -15,18 +15,18 @@
                             <p class="lead">A beautiful Design System for Vue Lovers based on bootstrap 4.3. It's Free and
                                 Open Source.</p>
                             <div>
-                                <slateblue-button color="primary" class="mr-2">
+                                <base-button color="primary" class="mr-2">
                                     <div class="d-flex align-items-center">
                                         <vue-fontawesome class="mr-2" size="1.3" icon="shield"></vue-fontawesome>
                                         components
                                     </div>
-                                </slateblue-button>
-                                <slateblue-button color="light">
+                                </base-button>
+                                <base-button color="light">
                                     <div class="d-flex align-items-center">
                                         <vue-fontawesome class="mr-2" size="1.6" icon="angle-down"></vue-fontawesome>
                                         <span>download</span>
                                     </div>
-                                </slateblue-button>
+                                </base-button>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
             <div class="mb-5 mt-4">
                 <h3 class="mb-5 container">Basic Elements</h3>
                 <h5 class="text-uppercase container mb-4">Navbar</h5>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="primary">
+                <base-navbar class="py-3 mb-3" bgType="dark" color="primary">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -61,8 +61,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="success">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="dark" color="success">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -86,8 +86,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="warning">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="dark" color="warning">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -123,8 +123,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="info">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="dark" color="info">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -148,8 +148,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="danger">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="dark" color="danger">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -173,8 +173,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="light" color="secondary">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="light" color="secondary">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -198,8 +198,8 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
-                <slateblue-navbar class="py-3 mb-3" bgType="dark" color="dark">
+                </base-navbar>
+                <base-navbar class="py-3 mb-3" bgType="dark" color="dark">
                     <div class="container">
                         <a class="navbar-brand text-uppercase" href="#">Slateblue-ui</a>
                         <button
@@ -239,7 +239,7 @@
                             </ul>
                         </div>
                     </div>
-                </slateblue-navbar>
+                </base-navbar>
             </div>
             <div class="container">
                 <div class="row">
@@ -248,77 +248,77 @@
                         <div class="mb-5">
                             <div class="row mb-4">
                                 <div class="col-md-4">
-                                    <slateblue-card>
+                                    <base-card>
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
-                                        <slateblue-card-body>
+                                        <card-body>
                                             <h5>Kajal Aggarwal</h5>
                                             <p>Some quick example text to build on the card title and make up the bulk
                                                 of the card's content.</p>
-                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
-                                        </slateblue-card-body>
-                                    </slateblue-card>
+                                            <base-button color="primary">Go somewhere</base-button>
+                                        </card-body>
+                                    </base-card>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-card>
+                                    <base-card>
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
-                                        <slateblue-card-body>
+                                        <card-body>
                                             <h5>Kajal Aggarwal</h5>
                                             <p>Some quick example text to build on the card title and make up the bulk
                                                 of the card's content.</p>
-                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
-                                        </slateblue-card-body>
-                                    </slateblue-card>
+                                            <base-button color="primary">Go somewhere</base-button>
+                                        </card-body>
+                                    </base-card>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-card>
+                                    <base-card>
                                         <img class="card-img-top" src="../assets/img/kajal3.png" alt="">
-                                        <slateblue-card-body>
+                                        <card-body>
                                             <h5>Kajal Aggarwal</h5>
                                             <p>Some quick example text to build on the card title and make up the bulk
                                                 of the card's content.</p>
-                                            <slateblue-button color="primary">Go somewhere</slateblue-button>
-                                        </slateblue-card-body>
-                                    </slateblue-card>
+                                            <base-button color="primary">Go somewhere</base-button>
+                                        </card-body>
+                                    </base-card>
                                 </div>
 
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <slateblue-card class="border-success">
-                                        <slateblue-card-header class="border-bottom border-success bg-transparent">
-                                            slateblue-card-header
-                                        </slateblue-card-header>
-                                        <slateblue-card-body>
+                                    <base-card class="border-success">
+                                        <card-header class="border-bottom border-success bg-transparent">
+                                            card-header
+                                        </card-header>
+                                        <card-body>
                                             <h5 class="card-title">Success card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and
                                                 make up the bulk of the card's content.</p>
-                                        </slateblue-card-body>
-                                        <slateblue-card-footer class="border-success">
-                                            slateblue-card-footer
-                                        </slateblue-card-footer>
-                                    </slateblue-card>
+                                        </card-body>
+                                        <card-footer class="border-success">
+                                           card-footer
+                                        </card-footer>
+                                    </base-card>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-card class="bg-primary text-white">
-                                        <slateblue-card-header>slateblue-card-header</slateblue-card-header>
-                                        <slateblue-card-body>
+                                    <base-card class="bg-primary text-white">
+                                        <card-header>card-header</card-header>
+                                        <card-body>
                                             <h5 class="card-title text-white">Primary card title</h5>
                                             <p class="card-text">Some quick example text to build on the card title and
                                                 make up the bulk of the card's content.</p>
-                                        </slateblue-card-body>
-                                        <slateblue-card-footer>slateblue-card-footer</slateblue-card-footer>
-                                    </slateblue-card>
+                                        </card-body>
+                                        <card-footer>card-footer</card-footer>
+                                    </base-card>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-card>
+                                    <base-card>
                                         <img class="card-img-top" style="height: 240px;" src="../assets/img/kajal4.png"
                                              alt="">
-                                        <slateblue-card-overlay>
+                                        <card-overlay>
                                             <h5 class="text-white">kajal aggaral</h5>
                                             <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing
                                                 elit. Accusantium ea eaque iure.</p>
-                                        </slateblue-card-overlay>
-                                    </slateblue-card>
+                                        </card-overlay>
+                                    </base-card>
                                 </div>
                             </div>
                         </div>
@@ -327,31 +327,31 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6 class="text-uppercase">Default</h6>
-                                    <slateblue-badge class="mr-1" color="primary" > primary</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="danger" >danger</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="info" > info</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="warning" > warning</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="light" > light</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="success" > success</slateblue-badge>
+                                    <base-badge class="mr-1" color="primary" > primary</base-badge>
+                                    <base-badge class="mr-1" color="danger" >danger</base-badge>
+                                    <base-badge class="mr-1" color="info" > info</base-badge>
+                                    <base-badge class="mr-1" color="warning" > warning</base-badge>
+                                    <base-badge class="mr-1" color="light" > light</base-badge>
+                                    <base-badge class="mr-1" color="success" > success</base-badge>
                                 </div>
                                 <div class="col-md-4">
                                     <h6 class="text-uppercase">Pill</h6>
-                                    <slateblue-badge class="mr-1" color="primary" type="pill">primary</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="danger" type="pill">danger</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="info" type="pill"> info</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="warning" type="pill"> warning</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="light" type="pill"> light</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="success" type="pill"> success</slateblue-badge>
+                                    <base-badge class="mr-1" color="primary" type="pill">primary</base-badge>
+                                    <base-badge class="mr-1" color="danger" type="pill">danger</base-badge>
+                                    <base-badge class="mr-1" color="info" type="pill"> info</base-badge>
+                                    <base-badge class="mr-1" color="warning" type="pill"> warning</base-badge>
+                                    <base-badge class="mr-1" color="light" type="pill"> light</base-badge>
+                                    <base-badge class="mr-1" color="success" type="pill"> success</base-badge>
                                 </div>
 
                                 <div class="col-md-4">
                                     <h6 class="text-uppercase">Square</h6>
-                                    <slateblue-badge class="mr-1" color="primary" type="0"> primary</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="danger" type="0">danger</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="info" type="0"> info</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="warning" type="0"> warning</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="light" type="0"> light</slateblue-badge>
-                                    <slateblue-badge class="mr-1" color="success" type="0"> success</slateblue-badge>
+                                    <base-badge class="mr-1" color="primary" type="0"> primary</base-badge>
+                                    <base-badge class="mr-1" color="danger" type="0">danger</base-badge>
+                                    <base-badge class="mr-1" color="info" type="0"> info</base-badge>
+                                    <base-badge class="mr-1" color="warning" type="0"> warning</base-badge>
+                                    <base-badge class="mr-1" color="light" type="0"> light</base-badge>
+                                    <base-badge class="mr-1" color="success" type="0"> success</base-badge>
                                 </div>
                             </div>
                         </div>
@@ -360,69 +360,69 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6 class="mb-4 text-uppercase">Default</h6>
-                                    <slateblue-button class="mr-2" color="primary">Button</slateblue-button>
-                                    <slateblue-button class="mr-2" color="secondary">
+                                    <base-button class="mr-2" color="primary">Button</base-button>
+                                    <base-button class="mr-2" color="secondary">
                                         <vue-fontawesome icon="send"></vue-fontawesome>
-                                    </slateblue-button>
-                                    <slateblue-button class="mr-2" color="dark">
+                                    </base-button>
+                                    <base-button class="mr-2" color="dark">
                                         <vue-fontawesome icon="github"></vue-fontawesome>
-                                    </slateblue-button>
+                                    </base-button>
                                 </div>
                                 <div class="col-md-4">
                                     <h6 class="mb-4 text-uppercase">Pill</h6>
-                                    <slateblue-button class="mr-2" color="primary" variant="pill">Button</slateblue-button>
-                                    <slateblue-button class="mr-2" color="secondary" variant="pill">
+                                    <base-button class="mr-2" color="primary" variant="pill">Button</base-button>
+                                    <base-button class="mr-2" color="secondary" variant="pill">
                                         <vue-fontawesome icon="send"></vue-fontawesome>
-                                    </slateblue-button>
-                                    <slateblue-button class="mr-2" color="dark" variant="pill">
+                                    </base-button>
+                                    <base-button class="mr-2" color="dark" variant="pill">
                                         <vue-fontawesome icon="github"></vue-fontawesome>
-                                    </slateblue-button>
+                                    </base-button>
                                 </div>
                                 <div class="col-md-4">
                                     <h6 class="mb-4 text-uppercase">Square</h6>
-                                    <slateblue-button class="mr-2" color="primary" variant="0">Button</slateblue-button>
-                                    <slateblue-button class="mr-2" color="secondary" variant="0">
+                                    <base-button class="mr-2" color="primary" variant="0">Button</base-button>
+                                    <base-button class="mr-2" color="secondary" variant="0">
                                         <vue-fontawesome icon="send"></vue-fontawesome>
-                                    </slateblue-button>
-                                    <slateblue-button class="mr-2" color="dark" variant="0">
+                                    </base-button>
+                                    <base-button class="mr-2" color="dark" variant="0">
                                         <vue-fontawesome icon="github"></vue-fontawesome>
-                                    </slateblue-button>
+                                    </base-button>
                                 </div>
                             </div>
                         </div>
                         <h5 class="mb-4 text-uppercase">Pick your color</h5>
                         <div class="mb-5">
-                            <slateblue-button class="mr-2" color="primary">primary</slateblue-button>
-                            <slateblue-button class="mr-2" color="info">info</slateblue-button>
-                            <slateblue-button class="mr-2" color="secondary">secondary</slateblue-button>
-                            <slateblue-button class="mr-2" color="success">success</slateblue-button>
-                            <slateblue-button class="mr-2" color="danger">danger</slateblue-button>
-                            <slateblue-button class="mr-2" color="warning">warning</slateblue-button>
-                            <slateblue-button class="mr-2" color="light">light</slateblue-button>
+                            <base-button class="mr-2" color="primary">primary</base-button>
+                            <base-button class="mr-2" color="info">info</base-button>
+                            <base-button class="mr-2" color="secondary">secondary</base-button>
+                            <base-button class="mr-2" color="success">success</base-button>
+                            <base-button class="mr-2" color="danger">danger</base-button>
+                            <base-button class="mr-2" color="warning">warning</base-button>
+                            <base-button class="mr-2" color="light">light</base-button>
                         </div>
                         <h5 class="mb-4 text-uppercase">Outline</h5>
                         <div class="mb-5">
-                            <slateblue-button class="mr-2" color="primary" type="outline">primary</slateblue-button>
-                            <slateblue-button class="mr-2" color="info" type="outline">info</slateblue-button>
-                            <slateblue-button class="mr-2" color="success" type="outline">success</slateblue-button>
-                            <slateblue-button class="mr-2" color="danger" type="outline">danger</slateblue-button>
-                            <slateblue-button class="mr-2" color="warning" type="outline">warning</slateblue-button>
+                            <base-button class="mr-2" color="primary" type="outline">primary</base-button>
+                            <base-button class="mr-2" color="info" type="outline">info</base-button>
+                            <base-button class="mr-2" color="success" type="outline">success</base-button>
+                            <base-button class="mr-2" color="danger" type="outline">danger</base-button>
+                            <base-button class="mr-2" color="warning" type="outline">warning</base-button>
                         </div>
                         <h5 class="mb-4 text-uppercase">Choose your size</h5>
                         <div class="mb-5">
-                            <slateblue-button class="mr-2" color="primary" variant="0" size="sm">small</slateblue-button>
-                            <slateblue-button class="mr-2" color="light" variant="0">default</slateblue-button>
-                            <slateblue-button class="mr-2" color="dark" size="lg" variant="0">large</slateblue-button>
+                            <base-button class="mr-2" color="primary" variant="0" size="sm">small</base-button>
+                            <base-button class="mr-2" color="light" variant="0">default</base-button>
+                            <base-button class="mr-2" color="dark" size="lg" variant="0">large</base-button>
                         </div>
                         <h5 class="mb-4 text-uppercase">Block level</h5>
                         <div class="mb-5">
-                            <slateblue-button class="mr-2 mt-2" color="dark"  display="block">primary
-                            </slateblue-button>
+                            <base-button class="mr-2 mt-2" color="dark"  display="block">primary
+                            </base-button>
                         </div>
                         <div class="mb-5">
                             <h5 class="mb-4 text-uppercase">Dropdown</h5>
                             <slateblue-dropdown  class="d-inline-block">
-                                <slateblue-button class="dropdown-toggle" color="secondary"  data-toggle="dropdown">Dropdown Button</slateblue-button>
+                                <base-button class="dropdown-toggle" color="secondary"  data-toggle="dropdown">Dropdown Button</base-button>
                                 <slateblue-dropdown-menu align="right">
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
@@ -430,7 +430,7 @@
                                 </slateblue-dropdown-menu>
                             </slateblue-dropdown>
                             <slateblue-dropdown  class="d-inline-block ml-2">
-                                <slateblue-button class="dropdown-toggle" color="dark"  data-toggle="dropdown">Dropdown Button</slateblue-button>
+                                <base-button class="dropdown-toggle" color="dark"  data-toggle="dropdown">Dropdown Button</base-button>
                                 <slateblue-dropdown-menu>
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
@@ -515,24 +515,24 @@
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <slateblue-inputs v-model="searchText"
-                                                      placeholder="enter your email"></slateblue-inputs>
+                                    <base-input v-model="searchText"
+                                                      placeholder="enter your email"></base-input>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs class="border-success" type="text"
-                                                      placeholder="success"></slateblue-inputs>
+                                    <base-input class="border-success" type="text"
+                                                      placeholder="success"></base-input>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs class="border-danger" placeholder="danger"></slateblue-inputs>
+                                    <base-input class="border-danger" placeholder="danger"></base-input>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs placeholder="disabled" disabled></slateblue-inputs>
+                                    <base-input placeholder="disabled" disabled></base-input>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs placeholder="search" icon="search"></slateblue-inputs>
+                                    <base-input placeholder="search" icon="search"></base-input>
                                 </div>
                                 <div class="col-md-4">
-                                    <slateblue-inputs placeholder="search" icon="send"></slateblue-inputs>
+                                    <base-input placeholder="search" icon="send"></base-input>
                                 </div>
                             </div>
                         </div>
@@ -540,18 +540,18 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <h6>Checkboxes</h6>
-                                    <slateblue-checkbox v-model="lovingVue"></slateblue-checkbox>
+                                    <base-checkbox v-model="lovingVue"></base-checkbox>
                                     <br>
-                                    <slateblue-checkbox v-model='searchText'></slateblue-checkbox>
+                                    <base-checkbox v-model='searchText'></base-checkbox>
                                     Checked
                                 </div>
                                 <div class="col-md-4">
                                     <h6>Radio Buttons</h6>
-                                    <slateblue-radio name="first" v-model="radio1"
-                                                     value="first radio"></slateblue-radio>
+                                    <base-radio name="first" v-model="radio1"
+                                                     value="first radio"></base-radio>
                                     <br>
-                                    <slateblue-radio name="first" v-model="radio2"
-                                                     value="second radio"></slateblue-radio>
+                                    <base-radio name="first" v-model="radio2"
+                                                     value="second radio"></base-radio>
                                     Radio
                                 </div>
                             </div>
@@ -614,35 +614,35 @@
                 </div>
                 <div class="mb-5">
                     <h5 class="mb-4 text-uppercase">Progress bar</h5>
-                    <slateblue-progress size=".2" class="mb-3" color="danger" width="35"></slateblue-progress>
-                    <slateblue-progress size=".5" class="mb-3" color="dark" width="65"></slateblue-progress>
-                    <slateblue-progress size="1" class="mb-3" color="primary" width="25"></slateblue-progress>
-                    <slateblue-progress  class="mb-3" color="warning" type="striped"  width="45"></slateblue-progress>
-                    <slateblue-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></slateblue-progress>
-                    <slateblue-progress  size="2" class="mb-3" color="success" type="striped" animation="animated" width="60"></slateblue-progress>
+                    <base-progress size=".2" class="mb-3" color="danger" width="35"></base-progress>
+                    <base-progress size=".5" class="mb-3" color="dark" width="65"></base-progress>
+                    <base-progress size="1" class="mb-3" color="primary" width="25"></base-progress>
+                    <base-progress  class="mb-3" color="warning" type="striped"  width="45"></base-progress>
+                    <base-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></base-progress>
+                    <base-progress  size="2" class="mb-3" color="success" type="striped" animation="animated" width="60"></base-progress>
                 </div>
                 <div class="mb-5">
                     <h5 class="text-uppercase mb-4">Spinner</h5>
                     <div class="row">
                         <div class="col-md-6">
                             <h6 class="mb-4 text-uppercase">border</h6>
-                            <slateblue-spinner size="4" type="border" color="primary"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="secondary"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="danger"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="warning"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="info"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="light"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="border" color="dark"></slateblue-spinner>
+                            <base-spinner size="4" type="border" color="primary"></base-spinner>
+                            <base-spinner size="4" type="border" color="secondary"></base-spinner>
+                            <base-spinner size="4" type="border" color="danger"></base-spinner>
+                            <base-spinner size="4" type="border" color="warning"></base-spinner>
+                            <base-spinner size="4" type="border" color="info"></base-spinner>
+                            <base-spinner size="4" type="border" color="light"></base-spinner>
+                            <base-spinner size="4" type="border" color="dark"></base-spinner>
                         </div>
                         <div class="col-md-6">
                             <h6 class="mb-4 text-uppercase">Grow</h6>
-                            <slateblue-spinner size="4" type="grow" color="primary"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="secondary"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="danger"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="warning"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="info"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="light"></slateblue-spinner>
-                            <slateblue-spinner size="4" type="grow" color="dark"></slateblue-spinner>
+                            <base-spinner size="4" type="grow" color="primary"></base-spinner>
+                            <base-spinner size="4" type="grow" color="secondary"></base-spinner>
+                            <base-spinner size="4" type="grow" color="danger"></base-spinner>
+                            <base-spinner size="4" type="grow" color="warning"></base-spinner>
+                            <base-spinner size="4" type="grow" color="info"></base-spinner>
+                            <base-spinner size="4" type="grow" color="light"></base-spinner>
+                            <base-spinner size="4" type="grow" color="dark"></base-spinner>
                         </div>
                     </div>
                 </div>
@@ -736,13 +736,13 @@
                     <h5 class="text-uppercase mb-4">Modal</h5>
                     <div class="row">
                         <div class="col-md-3">
-                            <slateblue-button color="primary" size="block" data-toggle="modal" data-target="#exampleModal">
+                            <base-button color="primary" size="block" data-toggle="modal" data-target="#exampleModal">
                                 demo modal
-                            </slateblue-button>
+                            </base-button>
                             <slateblue-modal target="exampleModal">
                                 <slateblue-modal-header>
                                     <h5 class="modal-title text-uppercase" >Defaul demo modal</h5>
-                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                    <base-close dismiss="modal"></base-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="modal-title text-uppercase">slateblue modal</h5>
@@ -755,24 +755,24 @@
                             </slateblue-modal>
                         </div>
                         <div class="col-md-3">
-                            <slateblue-button color="secondary" size="block" data-toggle="modal" data-target="#smallModal">
+                            <base-button color="secondary" size="block" data-toggle="modal" data-target="#smallModal">
                                 small modal
-                            </slateblue-button>
+                            </base-button>
                             <slateblue-modal size="sm" target="smallModal" >
                                 <slateblue-modal-header>
                                     <h5 class="modal-title text-uppercase" >small modal</h5>
-                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                    <base-close dismiss="modal"></base-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
-                                    <slateblue-spinner size="4" type="grow" color="primary"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="secondary"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="success"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="danger"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="warning"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="light"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="dark"></slateblue-spinner>
+                                    <base-spinner size="4" type="grow" color="primary"></base-spinner>
+                                    <base-spinner type="grow" color="secondary"></base-spinner>
+                                    <base-spinner type="grow" color="success"></base-spinner>
+                                    <base-spinner type="grow" color="danger"></base-spinner>
+                                    <base-spinner type="grow" color="warning"></base-spinner>
+                                    <base-spinner type="grow" color="light"></base-spinner>
+                                    <base-spinner type="grow" color="dark"></base-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -781,24 +781,24 @@
                             </slateblue-modal>
                         </div>
                         <div class="col-md-3">
-                            <slateblue-button color="warning" size="block" data-toggle="modal" data-target="#largeModal">
+                            <base-button color="warning" size="block" data-toggle="modal" data-target="#largeModal">
                                 Large Modal
-                            </slateblue-button>
+                            </base-button>
                             <slateblue-modal size="lg"  target="largeModal">
                                 <slateblue-modal-header>
                                     <h5 class="modal-title text-uppercase" >large modal</h5>
-                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                    <base-close dismiss="modal"></base-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
-                                    <slateblue-spinner type="border" color="primary"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="secondary"></slateblue-spinner>
-                                    <slateblue-spinner size="5" type="border" color="success"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="danger"></slateblue-spinner>
-                                    <slateblue-spinner size="5" type="border" color="warning"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="light"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="dark"></slateblue-spinner>
+                                    <base-spinner type="border" color="primary"></base-spinner>
+                                    <base-spinner type="border" color="secondary"></base-spinner>
+                                    <base-spinner size="5" type="border" color="success"></base-spinner>
+                                    <base-spinner type="border" color="danger"></base-spinner>
+                                    <base-spinner size="5" type="border" color="warning"></base-spinner>
+                                    <base-spinner type="border" color="light"></base-spinner>
+                                    <base-spinner type="border" color="dark"></base-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -807,24 +807,24 @@
                             </slateblue-modal>
                         </div>
                         <div class="col-md-3">
-                            <slateblue-button color="danger" size="block" data-toggle="modal" data-target="#extraLarge">
+                            <base-button color="danger" size="block" data-toggle="modal" data-target="#extraLarge">
                                 Extra large modal
-                            </slateblue-button>
+                            </base-button>
                             <slateblue-modal size="xl" target="extraLarge" >
                                 <slateblue-modal-header>
                                     <h5 class="modal-title text-uppercase" >Extra large modal</h5>
-                                    <slateblue-close dismiss="modal"></slateblue-close>
+                                    <base-close dismiss="modal"></base-close>
                                 </slateblue-modal-header>
                                 <slateblue-modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
-                                    <slateblue-spinner type="grow" color="primary"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="secondary"></slateblue-spinner>
-                                    <slateblue-spinner  size="5" type="grow" color="success"></slateblue-spinner>
-                                    <slateblue-spinner  size="5" type="border" color="danger"></slateblue-spinner>
-                                    <slateblue-spinner type="grow" color="warning"></slateblue-spinner>
-                                    <slateblue-spinner type="border" color="light"></slateblue-spinner>
-                                    <slateblue-spinner size="5" type="grow" color="dark"></slateblue-spinner>
+                                    <base-spinner type="grow" color="primary"></base-spinner>
+                                    <base-spinner type="border" color="secondary"></base-spinner>
+                                    <base-spinner  size="5" type="grow" color="success"></base-spinner>
+                                    <base-spinner  size="5" type="border" color="danger"></base-spinner>
+                                    <base-spinner type="grow" color="warning"></base-spinner>
+                                    <base-spinner type="border" color="light"></base-spinner>
+                                    <base-spinner size="5" type="grow" color="dark"></base-spinner>
                                 </slateblue-modal-body>
                                 <slateblue-modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -876,32 +876,32 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                 <div class="mb-5">
                     <div class="row justify-content-center">
                         <div class="col-md-12">
-                            <slateblue-alert class="py-3" color="primary">
+                            <base-alert class="py-3" color="primary">
                                 <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
                                 A simple primary alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="secondary">
+                            </base-alert>
+                            <base-alert class="py-3" color="secondary">
                                 <vue-fontawesome icon="life-ring" class="mr-2"></vue-fontawesome>
                                 A simple secondary alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="danger">
+                            </base-alert>
+                            <base-alert class="py-3" color="danger">
                                 A simple danger alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="warning">
+                            </base-alert>
+                            <base-alert class="py-3" color="warning">
                                 A simple warning alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="info">
+                            </base-alert>
+                            <base-alert class="py-3" color="info">
                                 A simple info alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="light">
+                            </base-alert>
+                            <base-alert class="py-3" color="light">
                                 <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
                                 A simple primary alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="dark">
+                            </base-alert>
+                            <base-alert class="py-3" color="dark">
                                 <vue-fontawesome icon="paper-plane" class="mr-2"></vue-fontawesome>
                                 A simple primary alert—check it out!
-                            </slateblue-alert>
-                            <slateblue-alert class="py-3" color="success">
+                            </base-alert>
+                            <base-alert class="py-3" color="success">
                                 <h4 class="alert-heading text-white">Well done!</h4>
                                 <p>Aww yeah, you successfully read this important alert message. This example text is
                                     going to run a bit longer so that you can see how spacing within an alert works with
@@ -909,7 +909,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                                 <hr>
                                 <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things
                                     nice and tidy.</p>
-                            </slateblue-alert>
+                            </base-alert>
                         </div>
                     </div>
 
@@ -1057,10 +1057,10 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                                Make sure to read docs first.</p>
                                <div>
                                    <router-link to="/login">
-                                    <slateblue-button class="mr-2" color="secondary">read Docs</slateblue-button>
+                                    <base-button class="mr-2" color="secondary">read Docs</base-button>
                                    </router-link>
                                    <a target="_blank" href="https://fontawesome.com/v4.7.0/icons/">
-                                       <slateblue-button color="dark">View icons</slateblue-button>
+                                       <base-button color="dark">View icons</base-button>
                                    </a>
                                </div>
                            </div>
@@ -1075,19 +1075,19 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                             <h2 class="text-uppercase mt-5 mb-4">Slateblue Awesome Design System</h2>
                             <p class="lead mb-4">Slateblue Design system comes with login and register page to help you get started, also it has it's own
                             beautiful documentation to help you out. It is based on <a href="http://www.bootcatch.com/slateblue/alerts" target="_blank">Slateblue Theme</a>. Which is based on Bootstrap 4.3.</p>
-                            <slateblue-button color="primary">
+                            <base-button color="primary">
                                 See all components
-                            </slateblue-button>
+                            </base-button>
                         </div>
                         <div class="col-md-6">
-                            <slateblue-card class="border-success l-shapes light-shadow">
+                            <base-card class="border-success l-shapes light-shadow">
                                 <img class="img-fluid" src="../assets/img/green.jpg" alt="">
-                                <slateblue-card-body>
-                                    <h5 class="card-title">slateblue-card-component</h5>
+                                <card-body>
+                                    <h5 class="card-title">base-card-component</h5>
                                     <p class="card-text">Some quick example text to build on the card title and
                                         make up the bulk of the card's content.</p>
-                                </slateblue-card-body>
-                            </slateblue-card>
+                                </card-body>
+                            </base-card>
                         </div>
                     </div>
                 </div>

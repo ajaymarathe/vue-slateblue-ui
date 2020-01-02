@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: 'slateblueButton',
+        name: 'BaseButton',
         props: {
             color: String,
             size: String,

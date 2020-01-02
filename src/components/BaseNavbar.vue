@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "slateblueNavbar",
+  name: "BaseNavbar",
   props:{
       color:String,
       bgType: String

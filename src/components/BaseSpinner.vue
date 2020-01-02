@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'slateblueSpinner',
+        name: 'BaseSpinner',
         props:{
             type: String,
             color: String,

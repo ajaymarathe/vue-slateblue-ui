@@ -14,7 +14,7 @@
 
 <script>
     export default {
-        name: 'slateblueInputs',
+        name: 'BaseInput',
         props:['value','type','placeholder','icon'],
     }
 </script>
