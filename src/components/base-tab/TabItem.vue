@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: 'slateblueTabItem',
+        name: 'TabItem',
         props:{
             target:String,
             tab: String,

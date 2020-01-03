@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "slateblueTabContent",
+        name: "TabContent",
         props: {
             section:String,
             tab: {

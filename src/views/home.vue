@@ -565,50 +565,50 @@
                     <h5 class="mb-4 text-uppercase">Tabs</h5>
                     <div class="row">
                         <div class="col-md-6">
-                            <slateblue-tab class="bg-light p-2">
+                            <base-tab class="bg-light p-2">
                                 <template v-slot:tab-item>
-                                    <slateblue-tab-item tab="active" target="home">Home</slateblue-tab-item>
-                                    <slateblue-tab-item target="profile">profile</slateblue-tab-item>
-                                    <slateblue-tab-item target="contact">contact</slateblue-tab-item>
+                                    <tab-item tab="active" target="home">Home</tab-item>
+                                    <tab-item target="profile">profile</tab-item>
+                                    <tab-item target="contact">contact</tab-item>
                                 </template>
                                 <template v-slot:tab-content>
-                                    <slateblue-tab-content tab="active"  section="home">
+                                    <tab-content tab="active"  section="home">
                                         Home
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
-                                    <slateblue-tab-content section="profile">
+                                    </tab-content>
+                                    <tab-content section="profile">
                                         Profile
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
-                                    <slateblue-tab-content section="contact">
+                                    </tab-content>
+                                    <tab-content section="contact">
                                         Contact
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
+                                    </tab-content>
                                 </template>
-                            </slateblue-tab>
+                            </base-tab>
                         </div>
                         <div class="col-md-6">
-                            <slateblue-tab class="bg-light  p-2">
+                            <base-tab class="bg-light  p-2">
                                 <template v-slot:tab-item>
-                                    <slateblue-tab-item tab="active" target="school">school</slateblue-tab-item>
-                                    <slateblue-tab-item target="college">college</slateblue-tab-item>
-                                    <slateblue-tab-item target="city">city</slateblue-tab-item>
+                                    <tab-item tab="active" target="school">school</tab-item>
+                                    <tab-item target="college">college</tab-item>
+                                    <tab-item target="city">city</tab-item>
                                 </template>
                                 <template v-slot:tab-content>
-                                    <slateblue-tab-content tab="active"  section="school">
+                                    <tab-content tab="active"  section="school">
                                         school
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
-                                    <slateblue-tab-content section="college">
+                                    </tab-content>
+                                    <tab-content section="college">
                                         college
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
-                                    <slateblue-tab-content section="city">
+                                    </tab-content>
+                                    <tab-content section="city">
                                         city
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur facere in maxime veritatis. Libero ratione, rerum. Ad aliquam aliquid cum eaque illo illum impedit, maiores modi nesciunt possimus quas rem.</p>
-                                    </slateblue-tab-content>
+                                    </tab-content>
                                 </template>
-                            </slateblue-tab>
+                            </base-tab>
                         </div>
                     </div>
                 </div>
@@ -617,9 +617,9 @@
                     <base-progress size=".2" class="mb-3" color="danger" width="35"></base-progress>
                     <base-progress size=".5" class="mb-3" color="dark" width="65"></base-progress>
                     <base-progress size="1" class="mb-3" color="primary" width="25"></base-progress>
-                    <base-progress  class="mb-3" color="warning" type="striped"  width="45"></base-progress>
-                    <base-progress  class="mb-3" color="info" type="striped" animation="animated" width="75"></base-progress>
-                    <base-progress  size="2" class="mb-3" color="success" type="striped" animation="animated" width="60"></base-progress>
+                    <base-progress class="mb-3" color="warning" type="striped"  width="45"></base-progress>
+                    <base-progress class="mb-3" color="info" type="striped" animation="animated" width="75"></base-progress>
+                    <base-progress size="2" class="mb-3" color="success" type="striped" animation="animated" width="60"></base-progress>
                 </div>
                 <div class="mb-5">
                     <h5 class="text-uppercase mb-4">Spinner</h5>
@@ -739,31 +739,31 @@
                             <base-button color="primary" size="block" data-toggle="modal" data-target="#exampleModal">
                                 demo modal
                             </base-button>
-                            <slateblue-modal target="exampleModal">
-                                <slateblue-modal-header>
+                            <base-modal target="exampleModal">
+                                <modal-header>
                                     <h5 class="modal-title text-uppercase" >Defaul demo modal</h5>
                                     <base-close dismiss="modal"></base-close>
-                                </slateblue-modal-header>
-                                <slateblue-modal-body>
+                                </modal-header>
+                                <modal-body>
                                     <h5 class="modal-title text-uppercase">slateblue modal</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus illo laboriosam laudantium odio officia sequi. Autem, omnis sequi? Accusamus enim praesentium provident sunt voluptatibus! Culpa dolorum error impedit vitae?</p>
-                                </slateblue-modal-body>
-                                <slateblue-modal-footer>
+                                </modal-body>
+                                <modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-primary">Save changes</button>
-                                </slateblue-modal-footer>
-                            </slateblue-modal>
+                                </modal-footer>
+                            </base-modal>
                         </div>
                         <div class="col-md-3">
                             <base-button color="secondary" size="block" data-toggle="modal" data-target="#smallModal">
                                 small modal
                             </base-button>
-                            <slateblue-modal size="sm" target="smallModal" >
-                                <slateblue-modal-header>
+                            <base-modal size="sm" target="smallModal" >
+                                <modal-header>
                                     <h5 class="modal-title text-uppercase" >small modal</h5>
                                     <base-close dismiss="modal"></base-close>
-                                </slateblue-modal-header>
-                                <slateblue-modal-body>
+                                </modal-header>
+                                <modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
                                     <base-spinner size="4" type="grow" color="primary"></base-spinner>
@@ -773,23 +773,23 @@
                                     <base-spinner type="grow" color="warning"></base-spinner>
                                     <base-spinner type="grow" color="light"></base-spinner>
                                     <base-spinner type="grow" color="dark"></base-spinner>
-                                </slateblue-modal-body>
-                                <slateblue-modal-footer>
+                                </modal-body>
+                                <modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-primary">Save changes</button>
-                                </slateblue-modal-footer>
-                            </slateblue-modal>
+                                </modal-footer>
+                            </base-modal>
                         </div>
                         <div class="col-md-3">
                             <base-button color="warning" size="block" data-toggle="modal" data-target="#largeModal">
                                 Large Modal
                             </base-button>
-                            <slateblue-modal size="lg"  target="largeModal">
-                                <slateblue-modal-header>
+                            <base-modal size="lg"  target="largeModal">
+                                <modal-header>
                                     <h5 class="modal-title text-uppercase" >large modal</h5>
                                     <base-close dismiss="modal"></base-close>
-                                </slateblue-modal-header>
-                                <slateblue-modal-body>
+                                </modal-header>
+                                <modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
                                     <base-spinner type="border" color="primary"></base-spinner>
@@ -799,23 +799,23 @@
                                     <base-spinner size="5" type="border" color="warning"></base-spinner>
                                     <base-spinner type="border" color="light"></base-spinner>
                                     <base-spinner type="border" color="dark"></base-spinner>
-                                </slateblue-modal-body>
-                                <slateblue-modal-footer>
+                                </modal-body>
+                                <modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-primary">Save changes</button>
-                                </slateblue-modal-footer>
-                            </slateblue-modal>
+                                </modal-footer>
+                            </base-modal>
                         </div>
                         <div class="col-md-3">
                             <base-button color="danger" size="block" data-toggle="modal" data-target="#extraLarge">
                                 Extra large modal
                             </base-button>
-                            <slateblue-modal size="xl" target="extraLarge" >
-                                <slateblue-modal-header>
+                            <base-modal size="xl" target="extraLarge" >
+                                <modal-header>
                                     <h5 class="modal-title text-uppercase" >Extra large modal</h5>
                                     <base-close dismiss="modal"></base-close>
-                                </slateblue-modal-header>
-                                <slateblue-modal-body>
+                                </modal-header>
+                                <modal-body>
                                     <h5 class="mb-4">Spinners</h5>
                                     <p>Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.</p>
                                     <base-spinner type="grow" color="primary"></base-spinner>
@@ -825,12 +825,12 @@
                                     <base-spinner type="grow" color="warning"></base-spinner>
                                     <base-spinner type="border" color="light"></base-spinner>
                                     <base-spinner size="5" type="grow" color="dark"></base-spinner>
-                                </slateblue-modal-body>
-                                <slateblue-modal-footer>
+                                </modal-body>
+                                <modal-footer>
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-primary">Save changes</button>
-                                </slateblue-modal-footer>
-                            </slateblue-modal>
+                                </modal-footer>
+                            </base-modal>
                         </div>
                     </div>
                 </div>
@@ -1013,16 +1013,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                             <p class="lead">
                                 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
                             </p>
-                            <h6 class="mb-4 mt-5 text-uppercase">Inline text elements</h6>
-                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
-                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
-                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
-                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
-                            <p><u>This line of text will render as underlined</u></p>
-                            <p><small>This line of text is meant to be treated as fine print.</small></p>
-                            <p><strong>This line rendered as bold text.</strong></p>
-                            <p><em>This line rendered as italicized text.</em></p>
-                            <h6 class="mb-4 mt-5 text-uppercase">Blockquotes</h6>
+
                             <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                             </blockquote>

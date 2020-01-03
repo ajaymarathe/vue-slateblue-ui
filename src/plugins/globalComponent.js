@@ -21,9 +21,11 @@ import BaseInput from "../components/BaseInput";
 import BaseCheckbox from "../components/BaseCheckbox";
 import BaseRadio from "../components/BaseRadio";
 import BaseNavbar from "../components/BaseNavbar";
-import slateblueTab from "../components/slateblueTab/slateblueTab";
-import slateblueTabItem from "../components/slateblueTab/slateblueTabItem";
-import slateblueTabContent from "../components/slateblueTab/slateblueTabContent";
+
+import BaseTab from "../components/base-tab/BaseTab";
+import TabItem from "../components/base-tab/TabItem";
+import TabContent from "../components/base-tab/TabContent";
+
 import BaseProgress from "../components/BaseProgress";
 import BaseClose from "../components/BaseClose";
 import BaseModal from "../components/base-modal/BaseModal";
@@ -65,9 +67,9 @@ export default {
         Vue.component(BaseCheckbox.name, BaseCheckbox);
         Vue.component(BaseRadio.name, BaseRadio);
         Vue.component(BaseNavbar.name, BaseNavbar);
-        Vue.component(slateblueTab.name, slateblueTab);
-        Vue.component(slateblueTabItem.name, slateblueTabItem);
-        Vue.component(slateblueTabContent.name, slateblueTabContent);
+        Vue.component(BaseTab.name, BaseTab);
+        Vue.component(TabItem.name, TabItem);
+        Vue.component(TabContent.name, TabContent);
         Vue.component(BaseProgress.name, BaseProgress);
 
         Vue.component(BaseClose.name, BaseClose);
