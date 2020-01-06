@@ -15,18 +15,22 @@
                             <p class="lead">A beautiful Design System for Vue Lovers based on bootstrap 4.3. It's Free and
                                 Open Source.</p>
                             <div>
-                                <base-button color="primary" class="mr-2">
-                                    <div class="d-flex align-items-center">
-                                        <vue-fontawesome class="mr-2" size="1.3" icon="shield"></vue-fontawesome>
-                                        components
-                                    </div>
-                                </base-button>
-                                <base-button color="light">
-                                    <div class="d-flex align-items-center">
-                                        <vue-fontawesome class="mr-2" size="1.6" icon="angle-down"></vue-fontawesome>
-                                        <span>download</span>
-                                    </div>
-                                </base-button>
+                                <a href="#" class="text-decoration-none">
+                                    <base-button color="primary" class="mr-2">
+                                        <div class="d-flex align-items-center">
+                                            <vue-fontawesome class="mr-2" size="1.3" icon="shield"></vue-fontawesome>
+                                            components
+                                        </div>
+                                    </base-button>
+                                </a>
+                                 <a class="text-decoration-none" href="https://github.com/ajaymarathe/vue-slateblue-ui/archive/master.zip" >
+                                    <base-button color="light">
+                                        <div class="d-flex align-items-center">
+                                            <vue-fontawesome class="mr-2" size="1.6" icon="angle-down"></vue-fontawesome>
+                                            <span>download</span>
+                                        </div>
+                                    </base-button>
+                                 </a>
                             </div>
                         </div>
                     </div>
@@ -1065,7 +1069,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                         <div class="col-md-6">
                             <h2 class="text-uppercase mt-5 mb-4">Slateblue Awesome Design System</h2>
                             <p class="lead mb-4">Slateblue Design system comes with login and register page to help you get started, also it has it's own
-                            beautiful documentation to help you out. It is based on <a href="http://www.bootcatch.com/slateblue/alerts" target="_blank">Slateblue Theme</a>. Which is based on Bootstrap 4.3.</p>
+                            beautiful documentation to help you out. It is based on <a href="http://www.bootcatch.com/lightly" target="_blank">Slateblue Theme</a>. Which is based on Bootstrap 4.3.</p>
                             <base-button color="primary">
                                 See all components
                             </base-button>

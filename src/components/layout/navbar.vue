@@ -25,11 +25,9 @@
             </ul>
             <ul class="navbar-nav ml-auto d-md-flex align-items-md-center">
                 <li class="nav-item active">
-                    <router-link class="nav-link" to="/login">
-                        <a  class="btn btn-light d-flex align-items-center text-primary">
+                        <a  class="btn btn-light d-flex align-items-center text-primary" href="https://github.com/ajaymarathe/vue-slateblue-ui/archive/master.zip" >
                             <vue-fontawesome class="mr-2" icon="cloud-download" size=".8" color="#5C46EA"></vue-fontawesome>
                             download</a>
-                    </router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/ajaymarathe/vue-slateblue-ui" target="_blank">
