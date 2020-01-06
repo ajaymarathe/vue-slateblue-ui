@@ -1,12 +1,13 @@
 <template>
-    <div class="dropdown">
+    <div class="carousel-inner">
         <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'slateblueDropdown',
+        name: 'CarouselInner',
+
     }
 </script>
 

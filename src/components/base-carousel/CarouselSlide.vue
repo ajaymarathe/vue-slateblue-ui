@@ -7,7 +7,7 @@
 
 <script>
     export default {
-        name: 'slateblueSlide',
+        name: 'CarouselSlide',
         props:{
             target: String,
             title: String,

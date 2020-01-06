@@ -12,11 +12,12 @@ import CardBody from "../components/base-card/CardBody";
 import CardFooter from "../components/base-card/CardFooter";
 import CardOverlay from "../components/base-card/CardOverlay";
 
-import slateblueCarousel from "../components/slateblueCarousel/slateblueCarousel";
-import slateblueSlide from "../components/slateblueCarousel/slateblueSlide";
-import slateblueSlideIndicator from "../components/slateblueCarousel/slateblueSlideIndicator";
-import slateblueCarouselnner from "../components/slateblueCarousel/slateblueCarouselnner";
-import slateblueCarouselCaption from "../components/slateblueCarousel/slateblueCarouselCaption";
+import BaseCarousel from "../components/base-carousel/BaseCarousel";
+import CarouselSlide from "../components/base-carousel/CarouselSlide";
+import SlideIndicator from "../components/base-carousel/SlideIndicator";
+import CarouselInner from "../components/base-carousel/CarouselInner";
+import CarouselCaption from "../components/base-carousel/CarouselCaption";
+
 import BaseInput from "../components/BaseInput";
 import BaseCheckbox from "../components/BaseCheckbox";
 import BaseRadio from "../components/BaseRadio";
@@ -34,9 +35,9 @@ import ModalBody from "../components/base-modal/ModalBody";
 import ModalFooter from "../components/base-modal/ModalFooter";
 
 import BaseSpinner from "../components/BaseSpinner";
-import slateblueFooter from "../components/layout/slateblueFooter";
-import slateblueDropdown from "../components/slateblueDropdown/slateblueDropdown";
-import slateblueDropdownMenu from "../components/slateblueDropdown/slateblueDropdownMenu";
+import BaseFooter from "../components/layout/BaseFooter";
+import BaseDropdown from "../components/base-dropdown/BaseDropdown";
+import DropdownMenu from "../components/base-dropdown/DropdownMenu";
 
 // pages
 import login from '../views/pages/login';
@@ -58,11 +59,11 @@ export default {
         Vue.component(CardFooter.name, CardFooter);
         Vue.component(CardOverlay.name, CardOverlay);
 
-        Vue.component(slateblueCarousel.name, slateblueCarousel);
-        Vue.component(slateblueSlide.name, slateblueSlide);
-        Vue.component(slateblueSlideIndicator.name, slateblueSlideIndicator);
-        Vue.component(slateblueCarouselnner.name, slateblueCarouselnner);
-        Vue.component(slateblueCarouselCaption.name, slateblueCarouselCaption);
+        Vue.component(BaseCarousel.name, BaseCarousel);
+        Vue.component(CarouselSlide.name, CarouselSlide);
+        Vue.component(SlideIndicator.name, SlideIndicator);
+        Vue.component(CarouselInner.name, CarouselInner);
+        Vue.component(CarouselCaption.name,CarouselCaption);
         Vue.component(BaseInput.name, BaseInput);
         Vue.component(BaseCheckbox.name, BaseCheckbox);
         Vue.component(BaseRadio.name, BaseRadio);
@@ -79,9 +80,9 @@ export default {
         Vue.component(ModalFooter.name,ModalFooter);
 
         Vue.component(BaseSpinner.name, BaseSpinner);
-        Vue.component(slateblueFooter.name, slateblueFooter);
-        Vue.component(slateblueDropdown.name, slateblueDropdown);
-        Vue.component(slateblueDropdownMenu.name, slateblueDropdownMenu);
+        Vue.component(BaseFooter.name, BaseFooter);
+        Vue.component(BaseDropdown.name, BaseDropdown);
+        Vue.component(DropdownMenu.name, DropdownMenu);
 
         // pages
         Vue.component(login.name, login);

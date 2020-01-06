@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "slateblueCarousel",
+        name: "BaseCarousel",
         props:{
             target: String,
             animation:String

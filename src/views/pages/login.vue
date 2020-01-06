@@ -19,10 +19,10 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label text-uppercase" >Remember me</label>
                         </div>
-                        <slateblue-button  class="btn btn-primary text-uppercase">
+                        <base-button  class="btn btn-primary text-uppercase">
                             <vue-fontawesome icon="lock"></vue-fontawesome>
                             Login
-                        </slateblue-button>
+                        </base-button>
                     </form>
                 </div>
             </div>

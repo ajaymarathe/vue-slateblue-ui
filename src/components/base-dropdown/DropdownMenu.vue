@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'slateblueDropdownMenu',
+        name: 'DropdownMenu',
         props: {
             target: String,
             align: String,

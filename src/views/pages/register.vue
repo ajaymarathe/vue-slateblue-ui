@@ -8,11 +8,11 @@
                   <form>
                       <div class="form-group">
                           <label class="text-uppercase">User Name</label>
-                          <slateblue-inputs type="text" class="form-control"   placeholder="Enter username"></slateblue-inputs>
+                          <base-input type="text" class="form-control"   placeholder="Enter username"></base-input>
                       </div>
                       <div class="form-group">
                           <label class="text-uppercase">Email address</label>
-                          <slateblue-inputs type="email" class="form-control" placeholder="Enter email"></slateblue-inputs>
+                          <base-input type="email" class="form-control" placeholder="Enter email"></base-input>
                           <small  class="form-text text-uppercase">We'll never share your email with anyone else.</small>
                       </div>
                       <div class="form-group">
@@ -23,10 +23,10 @@
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
                           <label class="form-check-label text-uppercase" for="exampleCheck1">Agree to privacy policy</label>
                       </div>
-                      <slateblue-button  class="btn btn-primary text-uppercase">
+                      <base-button  class="btn btn-primary text-uppercase">
                           <vue-fontawesome icon="lock"></vue-fontawesome>
                           Register
-                      </slateblue-button>
+                      </base-button>
                   </form>
 
               </div>

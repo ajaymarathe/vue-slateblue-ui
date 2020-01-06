@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'slateblueCarouselCaption'
+        name: "CarouselCaption"
     }
 </script>
 

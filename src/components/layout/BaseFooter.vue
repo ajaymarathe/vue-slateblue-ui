@@ -3,11 +3,11 @@
         <div class="navbar navbar-expand-lg container">
             <ul class="navbar-nav w-100">
                 <li class="nav-item active">
-                    <a class="nav-link" href="http://bootcatch.com/lightly">© 2019 Bootcatch.com</a>
+                    <a class="nav-link" href="http://bootcatch.com/lightly">© {{  new Date().getFullYear() }} Bootcatch.com</a>
                 </li>
                 <li class="nav-item ml-md-auto">
-                    <a class="nav-link" target="_blank" href="http://bootcatch.com/lightly">
-                        Bootcatch Team
+                    <a class="nav-link" target="_blank" href="http://bootcatch.com">
+                        Bootcatch
                     </a>
                 </li>
                 <li class="nav-item active">
@@ -32,7 +32,7 @@
 
 <script>
     export default {
-        name: 'slateblueFooter',
+        name: 'BaseFooter',
     }
 </script>
 

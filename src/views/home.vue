@@ -421,93 +421,93 @@
                         </div>
                         <div class="mb-5">
                             <h5 class="mb-4 text-uppercase">Dropdown</h5>
-                            <slateblue-dropdown  class="d-inline-block">
+                            <base-dropdown  class="d-inline-block">
                                 <base-button class="dropdown-toggle" color="secondary"  data-toggle="dropdown">Dropdown Button</base-button>
-                                <slateblue-dropdown-menu align="right">
+                                <dropdown-menu align="right">
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
-                                </slateblue-dropdown-menu>
-                            </slateblue-dropdown>
-                            <slateblue-dropdown  class="d-inline-block ml-2">
+                                </dropdown-menu>
+                            </base-dropdown>
+                            <base-dropdown  class="d-inline-block ml-2">
                                 <base-button class="dropdown-toggle" color="dark"  data-toggle="dropdown">Dropdown Button</base-button>
-                                <slateblue-dropdown-menu>
+                                <dropdown-menu>
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
-                                </slateblue-dropdown-menu>
-                            </slateblue-dropdown>
+                                </dropdown-menu>
+                            </base-dropdown>
                         </div>
                         <h5 class="mb-4 text-uppercase">Carousel</h5>
                         <div class="mb-5">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <slateblue-carousel target="firstCarousel" >
-                                        <slateblue-carousel-inner>
+                                    <base-carousel target="firstCarousel" >
+                                        <carousel-inner>
                                             <div class="carousel-item active">
                                                 <img src="../assets/img/kajal11.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption>
+                                                <carousel-caption>
                                                     <h5 class="text-white">First slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="../assets/img/kajal1.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption>
+                                                <carousel-caption>
                                                     <h5 class="text-white">Second slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="../assets/img/kajal12.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption>
+                                                <carousel-caption>
                                                     <h5 class="text-white">Third slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
-                                        </slateblue-carousel-inner>
-                                        <slateblue-slide target="firstCarousel" title="Previous" type="prev" ></slateblue-slide>
-                                        <slateblue-slide target="firstCarousel" title="Previous" type="next"></slateblue-slide>
+                                        </carousel-inner>
+                                        <carousel-slide target="firstCarousel" title="Previous" type="prev" ></carousel-slide>
+                                        <carousel-slide target="firstCarousel" title="Previous" type="next"></carousel-slide>
                                         <ol class="carousel-indicators" >
-                                            <slateblue-slide-indicator target="firstCarousel" index="0"></slateblue-slide-indicator>
-                                            <slateblue-slide-indicator target="firstCarousel" index="1"></slateblue-slide-indicator>
-                                            <slateblue-slide-indicator target="firstCarousel" index="2"></slateblue-slide-indicator>
+                                            <slide-indicator target="firstCarousel" index="0"></slide-indicator>
+                                            <slide-indicator target="firstCarousel" index="1"></slide-indicator>
+                                            <slide-indicator target="firstCarousel" index="2"></slide-indicator>
                                         </ol>
-                                    </slateblue-carousel>
+                                    </base-carousel>
                                 </div>
                                 <div class="col-md-6">
-                                    <slateblue-carousel target="seconCarousel" animation="fade" >
-                                        <slateblue-carousel-inner>
+                                    <base-carousel target="seconCarousel" animation="fade" >
+                                        <carousel-inner>
                                             <div class="carousel-item active">
                                                 <img src="../assets/img/kajal1.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption >
+                                                <carousel-caption >
                                                     <h5 class="text-white">First slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="../assets/img/kajal11.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption>
+                                                <carousel-caption>
                                                     <h5 class="text-white">Second slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
                                             <div class="carousel-item">
                                                 <img src="../assets/img/kajal12.png" class="d-block w-100" alt="...">
-                                                <slateblue-carousel-caption>
+                                                <carousel-caption>
                                                     <h5 class="text-white">Third slide label</h5>
                                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </slateblue-carousel-caption>
+                                                </carousel-caption>
                                             </div>
-                                        </slateblue-carousel-inner>
-                                        <slateblue-slide target="seconCarousel" title="Previous" type="prev" ></slateblue-slide>
-                                        <slateblue-slide target="seconCarousel" title="Previous" type="next"></slateblue-slide>
+                                        </carousel-inner>
+                                        <carousel-slide target="seconCarousel" title="Previous" type="prev" ></carousel-slide>
+                                        <carousel-slide target="seconCarousel" title="Previous" type="next"></carousel-slide>
                                         <ol class="carousel-indicators" >
-                                            <slateblue-slide-indicator target="seconCarousel" index="0"></slateblue-slide-indicator>
-                                            <slateblue-slide-indicator target="seconCarousel" index="1"></slateblue-slide-indicator>
-                                            <slateblue-slide-indicator target="seconCarousel" index="2"></slateblue-slide-indicator>
+                                            <slide-indicator target="seconCarousel" index="0"></slide-indicator>
+                                            <slide-indicator target="seconCarousel" index="1"></slide-indicator>
+                                            <slide-indicator target="seconCarousel" index="2"></slide-indicator>
                                         </ol>
-                                    </slateblue-carousel>
+                                    </base-carousel>
                                 </div>
                             </div>
                         </div>
@@ -1085,7 +1085,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
             </div>
 
         </div>
-        <slateblue-footer></slateblue-footer>
+        <base-footer></base-footer>
     </div>
 </template>
 

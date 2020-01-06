@@ -13,13 +13,13 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <slateblue-dropdown>
+                        <base-dropdown>
                             <a class="dropdown-toggle"  data-toggle="dropdown">Pages</a>
-                            <slateblue-dropdown-menu>
+                            <dropdown-menu>
                                 <router-link class="dropdown-item" to="/login">Login</router-link>
                                 <router-link class="dropdown-item" to="/register">Register</router-link>
-                            </slateblue-dropdown-menu>
-                        </slateblue-dropdown>
+                            </dropdown-menu>
+                        </base-dropdown>
                     </a>
                 </li>
             </ul>

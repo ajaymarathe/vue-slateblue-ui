@@ -7,7 +7,7 @@
 
 <script>
     export default {
-        name: 'slateblueSlideIndicator',
+        name: 'SlideIndicator',
         props:{
             target: String,
             index: String,
