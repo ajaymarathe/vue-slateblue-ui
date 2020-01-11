@@ -1051,9 +1051,9 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
                                <p class="lead mb-4">There are 675 icons in Font Awesome 4.7.0, easy to use. Which look awesome with Slatblue-UI,
                                Make sure to read docs first.</p>
                                <div>
-                                   <router-link to="/login">
+                                   <a href="https://www.npmjs.com/package/vue-fontawesome-icon" target="_blank">
                                     <base-button class="mr-2" color="secondary">read Docs</base-button>
-                                   </router-link>
+                                   </a>
                                    <a target="_blank" href="https://fontawesome.com/v4.7.0/icons/">
                                        <base-button color="dark">View icons</base-button>
                                    </a>
